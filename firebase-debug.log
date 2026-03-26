@@ -1,0 +1,28 @@
+[debug] [2026-03-26T20:53:14.507Z] ----------------------------------------------------------------------
+[debug] [2026-03-26T20:53:14.511Z] Command:       /usr/local/bin/node /usr/local/bin/firebase use --add
+[debug] [2026-03-26T20:53:14.511Z] CLI Version:   15.11.0
+[debug] [2026-03-26T20:53:14.511Z] Platform:      darwin
+[debug] [2026-03-26T20:53:14.511Z] Node Version:  v24.14.0
+[debug] [2026-03-26T20:53:14.511Z] Time:          Thu Mar 26 2026 13:53:14 GMT-0700 (Pacific Daylight Time)
+[debug] [2026-03-26T20:53:14.511Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-26T20:53:14.602Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-26T20:53:14.602Z] > authorizing via signed-in user (adib@ihsan.build)
+[debug] [2026-03-26T20:53:14.603Z] Checked if tokens are valid: true, expires at: 1774561992934
+[debug] [2026-03-26T20:53:14.603Z] Checked if tokens are valid: true, expires at: 1774561992934
+[debug] [2026-03-26T20:53:14.603Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-26T20:53:15.152Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-03-26T20:53:15.153Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2026-03-26T20:53:35.064Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/usr/local/lib/node_modules/firebase-tools/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:508:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:520:35)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+[error] 
+[error] Error: An unexpected error has occurred.

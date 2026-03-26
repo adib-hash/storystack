@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "prompt": "Write about a time you had to deliver bad news to someone who trusted you.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let one physical detail \u2014 a hand on a desk, a window behind them \u2014 carry the weight of the moment."
+  },
+  {
+    "id": 2,
+    "prompt": "Write about a decision you made under pressure that turned out to be right.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Start in the middle of the action. Don't explain the context until the second paragraph."
+  },
+  {
+    "id": 3,
+    "prompt": "Write about a meeting where the real conversation happened after the meeting ended.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use a single line of dialogue as the hinge the whole story turns on."
+  },
+  {
+    "id": 4,
+    "prompt": "Write about a moment you saw leadership fail someone who deserved better.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Tell it from the observer's perspective, not the victim's."
+  },
+  {
+    "id": 5,
+    "prompt": "Write about a time you changed your mind about someone you worked with.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the before and after without explaining what changed \u2014 let the reader feel the shift."
+  },
+  {
+    "id": 6,
+    "prompt": "Write about the hardest performance conversation you ever had.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Every sentence must earn its place."
+  },
+  {
+    "id": 7,
+    "prompt": "Write about a time when silence in a room told you everything you needed to know.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "No dialogue allowed. Describe only what you saw and felt."
+  },
+  {
+    "id": 8,
+    "prompt": "Write about a project that failed and what you learned in the rubble.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "End on a single sentence that reframes the failure as a gift."
+  },
+  {
+    "id": 9,
+    "prompt": "Write about the first time you managed someone older than you.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One scene only. No backstory."
+  },
+  {
+    "id": 10,
+    "prompt": "Write about a time you had to earn trust you'd never had before.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use a small, concrete gesture to represent the moment trust shifted."
+  },
+  {
+    "id": 11,
+    "prompt": "The spreadsheet was right, but the story it was telling was wrong.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the numbers be the villain. Give them a personality."
+  },
+  {
+    "id": 12,
+    "prompt": "Everyone in the room knew who the real decision-maker was, and it wasn't the person at the head of the table.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't name the power. Show it through who looks at whom."
+  },
+  {
+    "id": 13,
+    "prompt": "The hire looked perfect on paper.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the resume as a metaphor for the gap between how people present and who they are."
+  },
+  {
+    "id": 14,
+    "prompt": "She thanked me on her last day, and I wasn't sure I deserved it.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let ambiguity do the work. Don't resolve the tension."
+  },
+  {
+    "id": 15,
+    "prompt": "The pivot wasn't a strategy \u2014 it was a prayer.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Make the reader feel the desperation without naming it."
+  },
+  {
+    "id": 16,
+    "prompt": "We grew the revenue. We just didn't grow the culture.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show one moment that captured the entire cultural failure."
+  },
+  {
+    "id": 17,
+    "prompt": "The best feedback I ever received came from the person I was least expecting it from.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Delay the reveal of who gave the feedback until the final line."
+  },
+  {
+    "id": 18,
+    "prompt": "He left the company six months later, and I always wondered if I could have changed that.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "No hypotheticals. Stay in what actually happened."
+  },
+  {
+    "id": 19,
+    "prompt": "The org chart said one thing. The hallway conversations said another.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Pick one hallway conversation and make it the whole story."
+  },
+  {
+    "id": 20,
+    "prompt": "I built the team I needed, not the team I was given.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Name one person who made the difference. Give them a full moment on the page."
+  },
+  {
+    "id": 21,
+    "prompt": "Write about a time you had to let someone go.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No self-justification allowed."
+  },
+  {
+    "id": 22,
+    "prompt": "Write about the best manager you ever had.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One specific scene only. No general praise."
+  },
+  {
+    "id": 23,
+    "prompt": "Write about the worst manager you ever had.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Find one thing to be grateful for by the end."
+  },
+  {
+    "id": 24,
+    "prompt": "Write about a time you had to advocate for your team against leadership above you.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment of maximum tension and slow down there."
+  },
+  {
+    "id": 25,
+    "prompt": "Write about a time you got the credit and someone else deserved it.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Be honest. No hedging."
+  },
+  {
+    "id": 26,
+    "prompt": "Write about a time you didn't speak up in a meeting and regretted it.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Tell it in real time \u2014 thought by thought, as the moment passed."
+  },
+  {
+    "id": 27,
+    "prompt": "Write about a goal you set for your team that turned out to be the wrong goal.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the gap between intention and impact through one concrete example."
+  },
+  {
+    "id": 28,
+    "prompt": "Write about a moment when a client changed how you saw your own work.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Use their words, not yours, to make the point."
+  },
+  {
+    "id": 29,
+    "prompt": "Write about a time you had to rebuild trust after breaking it.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't skip to the resolution. Sit in the discomfort first."
+  },
+  {
+    "id": 30,
+    "prompt": "Write about a negotiation where you left something on the table on purpose.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Justify it in the final line. Only the final line."
+  },
+  {
+    "id": 31,
+    "prompt": "The company values were printed on the wall. Nobody looked at them.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use a specific meeting to show the gap between the words on the wall and what actually happened."
+  },
+  {
+    "id": 32,
+    "prompt": "We were the fastest-growing team in the company. I'm not sure that was a good thing.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the contradiction breathe."
+  },
+  {
+    "id": 33,
+    "prompt": "The deal almost fell apart three times. Nobody wrote that part in the press release.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Tell the version nobody wrote. Make it the real story."
+  },
+  {
+    "id": 34,
+    "prompt": "I've given that speech so many times I stopped hearing the words.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment when the words became hollow and make that the story."
+  },
+  {
+    "id": 35,
+    "prompt": "She asked one question that reframed the entire strategy.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the question the last line. Build everything toward it."
+  },
+  {
+    "id": 36,
+    "prompt": "The promotion changed him. I'm not sure for the better.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "No judgment. Just observation."
+  },
+  {
+    "id": 37,
+    "prompt": "We called it a reorganization. It was really a reckoning.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one person's story inside the bigger change."
+  },
+  {
+    "id": 38,
+    "prompt": "The board wanted confidence. What I had was conviction. Those aren't the same thing.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the difference through one high-stakes exchange."
+  },
+  {
+    "id": 39,
+    "prompt": "The exit interview was the most honest conversation we'd ever had.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Use only dialogue. No narration except one sentence at the end."
+  },
+  {
+    "id": 40,
+    "prompt": "He said 'this is just business.' That was the moment I knew it wasn't.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Build to that line. Make it land like a door closing."
+  },
+  {
+    "id": 41,
+    "prompt": "Write about a time you had to make a decision with incomplete information.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the decision, not just the outcome. Let the reader feel the uncertainty."
+  },
+  {
+    "id": 42,
+    "prompt": "Write about a moment when you realized the culture was the product.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use one team ritual or habit to illustrate the entire culture."
+  },
+  {
+    "id": 43,
+    "prompt": "Write about a time you were wrong in public and had to own it.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Don't over-explain."
+  },
+  {
+    "id": 44,
+    "prompt": "Write about the last presentation you gave that really mattered.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Lead with what was at stake, not what you said."
+  },
+  {
+    "id": 45,
+    "prompt": "Write about a time you hired someone on instinct over credentials.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "End on one concrete thing they did that proved you right or wrong."
+  },
+  {
+    "id": 46,
+    "prompt": "Write about a mentor who gave you something no credential could.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make it one conversation. Give it a beginning, middle, and turn."
+  },
+  {
+    "id": 47,
+    "prompt": "Write about a time you had to be the adult in the room.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "No heroics. Stay humble."
+  },
+  {
+    "id": 48,
+    "prompt": "Write about the most important operational change you ever made.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the human story inside the process change."
+  },
+  {
+    "id": 49,
+    "prompt": "Write about a time data and intuition pointed in opposite directions.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Land on which one you trusted and why."
+  },
+  {
+    "id": 50,
+    "prompt": "Write about a time you had to slow down to go faster.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use a single, small scene to carry the paradox."
+  },
+  {
+    "id": 51,
+    "prompt": "The morning of the board presentation, I rewrote the whole thing.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Start at 5am. Let the reader be in the room with you."
+  },
+  {
+    "id": 52,
+    "prompt": "I've worked for people who made me smaller. I've worked for people who made me bigger.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One paragraph for each. Don't name either person."
+  },
+  {
+    "id": 53,
+    "prompt": "Write about a time the right answer was to do nothing.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the restraint as an active choice, not a passive one."
+  },
+  {
+    "id": 54,
+    "prompt": "The team didn't need another strategy. They needed to be believed in.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment you chose to believe in them. Make it the center."
+  },
+  {
+    "id": 55,
+    "prompt": "Write about a time the business was doing well but something felt off.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Trust your instincts in the writing. Don't second-guess them."
+  },
+  {
+    "id": 56,
+    "prompt": "Write about a time you followed someone else's vision over your own.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the internal negotiation. Be honest about the cost."
+  },
+  {
+    "id": 57,
+    "prompt": "The hardest part wasn't the work. It was knowing who to bring with me.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Name one person. One choice. One consequence."
+  },
+  {
+    "id": 58,
+    "prompt": "Write about a professional relationship that shaped who you became.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show it through two or three scenes across time, not a summary."
+  },
+  {
+    "id": 59,
+    "prompt": "Write about a time you had to give feedback that changed someone's trajectory.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let their reaction be the ending."
+  },
+  {
+    "id": 60,
+    "prompt": "Every leader I've admired has had one quality I'm still trying to develop.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Name the quality. Show it in action through someone else's story."
+  },
+  {
+    "id": 61,
+    "prompt": "Write about the day you knew it was time to leave.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific moment \u2014 not the buildup, not the aftermath. The moment itself."
+  },
+  {
+    "id": 62,
+    "prompt": "Write about a time you had to choose between being liked and being right.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "No comfort at the end. Let the tension stand."
+  },
+  {
+    "id": 63,
+    "prompt": "The first team meeting I ever ran was a disaster.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the comedic detail inside the disaster. Let it breathe."
+  },
+  {
+    "id": 64,
+    "prompt": "Write about a time you chose growth over comfort for your team.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the discomfort first. Earn the growth."
+  },
+  {
+    "id": 65,
+    "prompt": "Write about a professional risk that cost you something but was still the right call.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Don't rationalize. Just describe."
+  },
+  {
+    "id": 66,
+    "prompt": "Write about a time the most junior person in the room had the best idea.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make their idea the hero, not you recognizing it."
+  },
+  {
+    "id": 67,
+    "prompt": "The company was for sale. Nobody said it out loud.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in subtext. Let what's unsaid drive the story."
+  },
+  {
+    "id": 68,
+    "prompt": "Write about a process you built that outlasted you.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the legacy speak quietly."
+  },
+  {
+    "id": 69,
+    "prompt": "Write about a time you had to represent a decision you disagreed with.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the internal split. Don't resolve it cleanly."
+  },
+  {
+    "id": 70,
+    "prompt": "Write about the colleague who taught you the most without knowing it.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "One specific interaction. One specific lesson. Show don't tell."
+  },
+  {
+    "id": 71,
+    "prompt": "The revenue was up. The people were exhausted. I had to decide what story to tell.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't let yourself off the hook."
+  },
+  {
+    "id": 72,
+    "prompt": "Write about a moment when you realized being a good operator wasn't enough.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Name what else was needed. Show it through a specific failure."
+  },
+  {
+    "id": 73,
+    "prompt": "Write about a time you had to rebuild a team's morale.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One specific action. Not a list of things. One thing."
+  },
+  {
+    "id": 74,
+    "prompt": "Write about an investor or board member who surprised you.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Subvert the expectation you set up in the opening line."
+  },
+  {
+    "id": 75,
+    "prompt": "Write about a time you had to explain a complex decision simply.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Apply that same simplicity to your writing."
+  },
+  {
+    "id": 76,
+    "prompt": "The presentation ended. Nobody asked a question. I couldn't tell if that was good or bad.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in that ambiguous moment. Let the reader sit in it too."
+  },
+  {
+    "id": 77,
+    "prompt": "Write about a moment that made you realize you were becoming a leader.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let someone else's behavior be the mirror."
+  },
+  {
+    "id": 78,
+    "prompt": "Write about a time you had to trust the process when the process felt broken.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. End on what the trust cost you."
+  },
+  {
+    "id": 79,
+    "prompt": "Write about a partnership that worked because of, not despite, the tension.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Dramatize the tension. Make it feel productive, not toxic."
+  },
+  {
+    "id": 80,
+    "prompt": "She asked me what I stood for. I didn't have an answer ready.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the search for the answer the whole story."
+  },
+  {
+    "id": 81,
+    "prompt": "Write about a time you had to protect your team from above.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Show the shield without making yourself the hero."
+  },
+  {
+    "id": 82,
+    "prompt": "Write about the worst piece of advice you ever followed.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the logic that made it seem right at the time. Honor that logic."
+  },
+  {
+    "id": 83,
+    "prompt": "Write about a time you got the strategy right but the timing wrong.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. No bitterness allowed."
+  },
+  {
+    "id": 84,
+    "prompt": "The hardest feedback I ever gave turned out to be the most loving thing I could have done.",
+    "domain": "work_leadership",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the love through the difficulty, not despite it."
+  },
+  {
+    "id": 85,
+    "prompt": "Write about a time you had to restart from zero.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what you kept. Make that the real story."
+  },
+  {
+    "id": 86,
+    "prompt": "Write about a phone call with a parent that stayed with you for days.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use one thing they said \u2014 verbatim \u2014 as the anchor of the whole piece."
+  },
+  {
+    "id": 87,
+    "prompt": "Write about a moment you understood your parents as people, not just as parents.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the realization land quietly."
+  },
+  {
+    "id": 88,
+    "prompt": "Write about a sibling moment that tells the whole story of your relationship.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "One scene. No backstory until after the scene is complete."
+  },
+  {
+    "id": 89,
+    "prompt": "Write about a family dinner where something shifted.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the food, the table, the seating \u2014 make the physical space do the emotional work."
+  },
+  {
+    "id": 90,
+    "prompt": "Write about a time you said something to someone you love that you wish you could take back.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No self-forgiveness at the end."
+  },
+  {
+    "id": 91,
+    "prompt": "Write about a time someone in your family showed up for you in a way you didn't expect.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make their action \u2014 not their words \u2014 the centerpiece."
+  },
+  {
+    "id": 92,
+    "prompt": "Write about the distance between you and someone you love.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use physical distance (miles, a closed door, a long flight) as a metaphor."
+  },
+  {
+    "id": 93,
+    "prompt": "Write about a tradition that seemed ordinary until it stopped.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the absence speak louder than the presence."
+  },
+  {
+    "id": 94,
+    "prompt": "Write about a time you were proud of someone in your family but couldn't find the words.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the pride through what you did, not what you said."
+  },
+  {
+    "id": 95,
+    "prompt": "Write about a conflict that was never fully resolved.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Don't resolve it in the writing either. Sit with the open wound."
+  },
+  {
+    "id": 96,
+    "prompt": "The drive to the airport always takes longer when you know someone is leaving.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in that car. Make the mundane details luminous."
+  },
+  {
+    "id": 97,
+    "prompt": "He never said he was proud of me. He didn't have to.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the gesture that said it. Make it the whole story."
+  },
+  {
+    "id": 98,
+    "prompt": "She cooked when she didn't know what else to do.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the cooking as a love language. Decode it through one meal."
+  },
+  {
+    "id": 99,
+    "prompt": "We grew up in the same house and became completely different people.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. No judgment. Just observation."
+  },
+  {
+    "id": 100,
+    "prompt": "The last conversation we had before things changed was about nothing in particular.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the ordinary conversation feel weighted in retrospect."
+  },
+  {
+    "id": 101,
+    "prompt": "Write about a time you had to be strong for someone when you weren't feeling strong.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't perform the strength. Show the effort behind it."
+  },
+  {
+    "id": 102,
+    "prompt": "Write about a moment you saw yourself in one of your parents.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use a specific gesture, phrase, or habit as the mirror."
+  },
+  {
+    "id": 103,
+    "prompt": "Write about a relationship that changed when roles reversed.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show one small moment where the old dynamic cracked."
+  },
+  {
+    "id": 104,
+    "prompt": "Write about a time you had to deliver difficult news to someone in your family.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the silence after the words carry the weight."
+  },
+  {
+    "id": 105,
+    "prompt": "Write about the person in your family who is hardest to understand.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one moment of unexpected clarity about them. Make it the ending."
+  },
+  {
+    "id": 106,
+    "prompt": "My in-laws taught me something about love that my own family hadn't.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Name the thing. Show it through one interaction."
+  },
+  {
+    "id": 107,
+    "prompt": "The wedding was perfect. The year after was the real work.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Stay in year one. One scene. One tension."
+  },
+  {
+    "id": 108,
+    "prompt": "There are things I know about my family that I've never said out loud.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Say one of them in this story. Let the page hold it."
+  },
+  {
+    "id": 109,
+    "prompt": "Write about a moment of unexpected tenderness with someone you'd been at odds with.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Don't over-explain the shift."
+  },
+  {
+    "id": 110,
+    "prompt": "Write about a time you had to forgive without receiving an apology.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't make it about the other person. Make it about what forgiveness cost you."
+  },
+  {
+    "id": 111,
+    "prompt": "Write about a relationship that exists mostly through text messages.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the limitations of the medium to say something about the relationship itself."
+  },
+  {
+    "id": 112,
+    "prompt": "Write about a time your family gathered and everyone pretended things were fine.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Stay in the subtext."
+  },
+  {
+    "id": 113,
+    "prompt": "Write about a time you were the one who needed to be taken care of.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let yourself be vulnerable in the writing. Don't reach for competence."
+  },
+  {
+    "id": 114,
+    "prompt": "Write about a friendship that became family.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One scene that shows the crossing of that threshold."
+  },
+  {
+    "id": 115,
+    "prompt": "Write about the last time you laughed until it hurt with someone you love.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Put the reader in that laugh. Use sound, breath, context."
+  },
+  {
+    "id": 116,
+    "prompt": "She always made sure everyone else ate before she did.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use that one gesture to tell her whole story."
+  },
+  {
+    "id": 117,
+    "prompt": "We didn't talk about hard things in my family. We talked about everything around them.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show the orbit without landing on the center."
+  },
+  {
+    "id": 118,
+    "prompt": "The house I grew up in doesn't exist the way I remember it.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe the memory version and the real version. Let the gap be the story."
+  },
+  {
+    "id": 119,
+    "prompt": "He taught me to drive and never once raised his voice.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the patience the gift. Let it ripple forward in time."
+  },
+  {
+    "id": 120,
+    "prompt": "The argument was about the dishes. It was never about the dishes.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay on the surface. Let the reader feel the depth."
+  },
+  {
+    "id": 121,
+    "prompt": "Write about a time you chose your family over something else important.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't justify the choice. Just show it and what it cost."
+  },
+  {
+    "id": 122,
+    "prompt": "Write about a child who taught you something profound.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let them be the wiser one."
+  },
+  {
+    "id": 123,
+    "prompt": "Write about a moment when your definition of home shifted.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use a single sensory detail \u2014 a smell, a sound \u2014 to mark the shift."
+  },
+  {
+    "id": 124,
+    "prompt": "Write about a time you let someone love you badly because you needed the love.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Be honest. Under 200 words."
+  },
+  {
+    "id": 125,
+    "prompt": "Write about a relationship that distance made stronger.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what the distance forced that proximity never had."
+  },
+  {
+    "id": 126,
+    "prompt": "The last time I saw her, I didn't know it would be the last time.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in that ordinary moment. Make it luminous without making it sentimental."
+  },
+  {
+    "id": 127,
+    "prompt": "Some families speak in looks across the room.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Write the dictionary of one look. What it means. When it's used. What it costs."
+  },
+  {
+    "id": 128,
+    "prompt": "Write about a relative you barely knew who somehow shaped you.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. One detail. One ripple forward."
+  },
+  {
+    "id": 129,
+    "prompt": "Write about a time you had to protect a relationship from yourself.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make your own reactivity the antagonist."
+  },
+  {
+    "id": 130,
+    "prompt": "Write about someone who loved you at your worst.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let them be the hero."
+  },
+  {
+    "id": 131,
+    "prompt": "Write about a time a relationship asked more of you than you thought you had.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment you found more. Make it the turn."
+  },
+  {
+    "id": 132,
+    "prompt": "Write about a time the right thing to say was nothing.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the silence be the response."
+  },
+  {
+    "id": 133,
+    "prompt": "We spent one week together every year. That week had to carry everything.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Pick one moment from one of those weeks. Make it count."
+  },
+  {
+    "id": 134,
+    "prompt": "Write about a time you realized love isn't enough on its own.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what else was needed. Name it clearly at the end."
+  },
+  {
+    "id": 135,
+    "prompt": "Write about the family member who is hardest to say goodbye to.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Use a specific goodbye. Not the feeling in general."
+  },
+  {
+    "id": 136,
+    "prompt": "Write about a time being far from family made you understand them better.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the clarity that distance gave. Make it a gift, not just a loss."
+  },
+  {
+    "id": 137,
+    "prompt": "The way she said my name when she was worried was different from every other way.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make a name carry a whole relationship."
+  },
+  {
+    "id": 138,
+    "prompt": "Write about a time you needed to ask for help and almost didn't.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Be honest about the pride."
+  },
+  {
+    "id": 139,
+    "prompt": "Write about a relationship that exists in a language you're still learning.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the language gap as the metaphor for the relationship gap."
+  },
+  {
+    "id": 140,
+    "prompt": "Write about a time you saw love in a form you almost missed.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the recognition be the landing."
+  },
+  {
+    "id": 141,
+    "prompt": "Write about a conversation you wish you'd had before it was too late.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Write the conversation. Give it a real ending, even if an imagined one."
+  },
+  {
+    "id": 142,
+    "prompt": "She asked if I was happy. I said yes. One of us was lying.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay in that moment."
+  },
+  {
+    "id": 143,
+    "prompt": "Write about a time a small gesture changed the temperature of a relationship.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the small gesture the entire story. Don't zoom out."
+  },
+  {
+    "id": 144,
+    "prompt": "Write about a time you were more patient with a stranger than with someone you loved.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Be honest about why."
+  },
+  {
+    "id": 145,
+    "prompt": "Write about a time you finally understood an apology you'd been waiting for.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show how the understanding came \u2014 not through words, but through experience."
+  },
+  {
+    "id": 146,
+    "prompt": "The best thing about being away from home was coming back.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Capture the return in one scene. Every detail matters."
+  },
+  {
+    "id": 147,
+    "prompt": "Write about a time someone in your family made you feel truly seen.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let their seeing of you be the whole story."
+  },
+  {
+    "id": 148,
+    "prompt": "Write about the person you call first when something good happens.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what that says about the relationship without stating it directly."
+  },
+  {
+    "id": 149,
+    "prompt": "Write about a relationship that required you to become a different version of yourself.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show the before and after."
+  },
+  {
+    "id": 150,
+    "prompt": "Write about a time you gave someone space when you wanted to hold on.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the restraint the act of love."
+  },
+  {
+    "id": 151,
+    "prompt": "Write about a relationship that you're still not sure how to categorize.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Don't categorize it. Just tell the story."
+  },
+  {
+    "id": 152,
+    "prompt": "He never missed one of my things. I didn't realize how much that cost him until later.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Tell the later. Make the retrospective gratitude the heart."
+  },
+  {
+    "id": 153,
+    "prompt": "Write about a moment of grace in a relationship that had very little of it.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the grace. Don't explain it. Just show it."
+  },
+  {
+    "id": 154,
+    "prompt": "Write about a time your family showed up in a way that surprised even them.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the surprise be earned."
+  },
+  {
+    "id": 155,
+    "prompt": "Write about a time you had to rebuild a relationship from scratch.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one small moment that signaled the rebuild had begun."
+  },
+  {
+    "id": 156,
+    "prompt": "The photo doesn't look the way the memory feels.",
+    "domain": "family_relationships",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe both \u2014 the photo and the feeling. Let them be in dialogue."
+  },
+  {
+    "id": 157,
+    "prompt": "Write about the relationship you are most grateful for and least able to explain.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Don't explain it. Just show it."
+  },
+  {
+    "id": 158,
+    "prompt": "Write about a time you had to let a relationship be what it was, not what you wanted it to be.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the moment of acceptance. Make it earned."
+  },
+  {
+    "id": 159,
+    "prompt": "Write about a time being someone's child was a gift you didn't fully appreciate until adulthood.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. One specific memory. One moment of late gratitude."
+  },
+  {
+    "id": 160,
+    "prompt": "Write about the last time you cried in front of someone and didn't apologize for it.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the not-apologizing the story."
+  },
+  {
+    "id": 161,
+    "prompt": "Write about a moment of love so ordinary it almost went unnoticed.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Make the ordinary extraordinary."
+  },
+  {
+    "id": 162,
+    "prompt": "Write about someone whose absence you carry like a presence.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show them in the details of your everyday life without explaining why."
+  },
+  {
+    "id": 163,
+    "prompt": "Write about a time when the most loving thing was to tell the truth.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the truth be the gift."
+  },
+  {
+    "id": 164,
+    "prompt": "Write about a time you had to choose between two people you loved.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't justify the choice. Just show it and what it took."
+  },
+  {
+    "id": 165,
+    "prompt": "Write about a time you were the person someone else needed you to be.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let their need shape the story."
+  },
+  {
+    "id": 166,
+    "prompt": "Write about the person whose opinion of you matters most, and whether it should.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Be honest about the should. Don't reach for the easy answer."
+  },
+  {
+    "id": 167,
+    "prompt": "Write about a moment during Umrah when something broke open inside you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one image \u2014 the Kaaba at first sight, your hands in dua \u2014 and let it carry the whole piece."
+  },
+  {
+    "id": 168,
+    "prompt": "Write about a verse from the Quran that found you at the right moment.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the verse speak first. Then your experience."
+  },
+  {
+    "id": 169,
+    "prompt": "Write about a time when making dua felt like it mattered.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the physical reality of the moment \u2014 hands, breath, words \u2014 before moving to meaning."
+  },
+  {
+    "id": 170,
+    "prompt": "Write about a name of Allah that you return to again and again.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One name. Under 175 words. Show what it does in your life, not just what it means."
+  },
+  {
+    "id": 171,
+    "prompt": "Write about a Ramadan that changed you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one moment from that Ramadan. Make it the keystone of the whole piece."
+  },
+  {
+    "id": 172,
+    "prompt": "The adhan played and I wasn't ready.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the interruption the gift. What were you doing? What did the call ask you to leave?"
+  },
+  {
+    "id": 173,
+    "prompt": "Write about a time you felt Allah's mercy in a specific, undeniable way.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Stay grounded. No abstractions."
+  },
+  {
+    "id": 174,
+    "prompt": "Write about the first time Islam felt like yours, not just your family's.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment of ownership. Let it be small and specific."
+  },
+  {
+    "id": 175,
+    "prompt": "Write about a time your faith was tested and you stayed.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't perform the staying. Show what it cost."
+  },
+  {
+    "id": 176,
+    "prompt": "Write about a conversation about Islam with someone who didn't share your faith.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let their question be the gift. Show what it made you examine."
+  },
+  {
+    "id": 177,
+    "prompt": "Write about the Quran verse you find hardest to sit with.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't resolve the difficulty. Sit in it honestly."
+  },
+  {
+    "id": 178,
+    "prompt": "He made wudu before every meeting. I never asked him why. I wish I had.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the unasked question the center. What does not knowing teach you?"
+  },
+  {
+    "id": 179,
+    "prompt": "Write about a time you prayed and felt heard.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the specificity of the moment \u2014 where you were, what you asked \u2014 as the anchor."
+  },
+  {
+    "id": 180,
+    "prompt": "Write about a time you prayed and felt nothing, and kept going anyway.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Honesty over performance."
+  },
+  {
+    "id": 181,
+    "prompt": "Write about a piece of Islamic scholarship that reframed something for you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Explain it through story, not explanation."
+  },
+  {
+    "id": 182,
+    "prompt": "The masjid smelled like childhood.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Follow the smell. Let memory lead."
+  },
+  {
+    "id": 183,
+    "prompt": "Write about tawakkul \u2014 trusting Allah \u2014 at a moment when trust was hard.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show the struggle first. Earn the trust."
+  },
+  {
+    "id": 184,
+    "prompt": "Write about a time you saw Islam lived beautifully in someone's daily life.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one gesture or habit and make it the whole portrait."
+  },
+  {
+    "id": 185,
+    "prompt": "Write about what Ramadan feels like on the inside.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No explaining. Only experiencing."
+  },
+  {
+    "id": 186,
+    "prompt": "Write about a time you had to reconcile your faith with a difficult reality.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't resolve the tension. Let both things be true at the end."
+  },
+  {
+    "id": 187,
+    "prompt": "Write about the last line of a surah that stopped you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the line do the work."
+  },
+  {
+    "id": 188,
+    "prompt": "I didn't grow up religious. I grew into it.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the turning point. The thing that made you lean in."
+  },
+  {
+    "id": 189,
+    "prompt": "Write about a moment of sajdah \u2014 prostration \u2014 that felt different from the others.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the ground the symbol. What were you putting down?"
+  },
+  {
+    "id": 190,
+    "prompt": "Write about a time Islam gave you a framework when nothing else did.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be concrete. No platitudes."
+  },
+  {
+    "id": 191,
+    "prompt": "Write about the way Islam shapes your relationship with time.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the five daily prayers as a structural metaphor."
+  },
+  {
+    "id": 192,
+    "prompt": "Write about a moment of gratitude so pure it surprised you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Don't explain the gratitude. Just be in it."
+  },
+  {
+    "id": 193,
+    "prompt": "Write about a time you felt genuinely small \u2014 and it was a relief.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use scale \u2014 sky, ocean, a crowd \u2014 to mirror the inner feeling."
+  },
+  {
+    "id": 194,
+    "prompt": "Write about a question you've stopped trying to answer and started learning to hold.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't reach for resolution."
+  },
+  {
+    "id": 195,
+    "prompt": "Write about a moment when nature broke through your distraction.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one specific natural moment and slow all the way down."
+  },
+  {
+    "id": 196,
+    "prompt": "Write about a time you had to believe in something you couldn't prove.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be honest about the uncertainty."
+  },
+  {
+    "id": 197,
+    "prompt": "Write about a time silence held more meaning than any words could.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe the silence. Give it texture, weight, temperature."
+  },
+  {
+    "id": 198,
+    "prompt": "Write about a ritual or practice that reconnects you to yourself.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One practice. One specific time it worked. Under 175 words."
+  },
+  {
+    "id": 199,
+    "prompt": "The moment just before dawn has always felt like a door.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Walk through it. What's on the other side?"
+  },
+  {
+    "id": 200,
+    "prompt": "Write about a time you experienced something you couldn't explain.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't try to explain it here either."
+  },
+  {
+    "id": 201,
+    "prompt": "Write about a time your inner voice was right, and you almost didn't listen.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the almost. Make the near-miss the story."
+  },
+  {
+    "id": 202,
+    "prompt": "Write about what stillness costs you and what it gives back.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Be specific about both sides of the ledger."
+  },
+  {
+    "id": 203,
+    "prompt": "Write about a time you had to grieve something that no one else would understand.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find a witness \u2014 even an unlikely one \u2014 for the grief."
+  },
+  {
+    "id": 204,
+    "prompt": "Write about a belief you hold that you've never said out loud.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Say it now. Under 150 words."
+  },
+  {
+    "id": 205,
+    "prompt": "Write about a time you found meaning in something that looked like loss.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't rush to the meaning. Sit in the loss first."
+  },
+  {
+    "id": 206,
+    "prompt": "Write about a time the world showed you something you'd stopped seeing.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. One specific moment. No generalizing."
+  },
+  {
+    "id": 207,
+    "prompt": "Write about a time your faith and your logic needed each other.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the conversation between them as if they were characters."
+  },
+  {
+    "id": 208,
+    "prompt": "Write about a time you prayed in a way that felt entirely your own.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Stay in the personal, the idiosyncratic."
+  },
+  {
+    "id": 209,
+    "prompt": "Write about a time letting go was the most powerful thing you did.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what you released. Show what came after."
+  },
+  {
+    "id": 210,
+    "prompt": "Write about a time you found the sacred in the ordinary.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Don't announce the sacred. Let the reader feel it."
+  },
+  {
+    "id": 211,
+    "prompt": "Write about a time being known by someone felt like grace.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the knowing specific \u2014 one thing they saw in you, one moment."
+  },
+  {
+    "id": 212,
+    "prompt": "Write about a time your sense of purpose was restored.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. One person, place, or moment that did it."
+  },
+  {
+    "id": 213,
+    "prompt": "Write about a time you had to reconcile who you are with who you want to be.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the gap. Describe it without judgment."
+  },
+  {
+    "id": 214,
+    "prompt": "Write about a time you were alone and it was enough.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. No loneliness in this one."
+  },
+  {
+    "id": 215,
+    "prompt": "Write about a time you felt the presence of something larger than yourself.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't name it. Show what it felt like in your body."
+  },
+  {
+    "id": 216,
+    "prompt": "Write about a time fear and faith occupied the same moment.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let both be true simultaneously."
+  },
+  {
+    "id": 217,
+    "prompt": "Write about a time you chose to be hopeful when cynicism would have been easier.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the cynicism first. Make the hope a real choice."
+  },
+  {
+    "id": 218,
+    "prompt": "Write about a person whose inner life humbled you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show their inner life through their outer behavior."
+  },
+  {
+    "id": 219,
+    "prompt": "Write about a time you had to surrender control and it worked out.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the surrender as an active choice, not a passive resignation."
+  },
+  {
+    "id": 220,
+    "prompt": "Write about a time you experienced beauty that felt undeserved.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay in the gratitude."
+  },
+  {
+    "id": 221,
+    "prompt": "Write about a time the world required you to trust it.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific ask. Show what you did with it."
+  },
+  {
+    "id": 222,
+    "prompt": "Write about a time reflection revealed something you'd been avoiding.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Face it in the writing."
+  },
+  {
+    "id": 223,
+    "prompt": "Write about what you believe about the afterlife and why.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Anchor belief in experience. Show where the belief came from."
+  },
+  {
+    "id": 224,
+    "prompt": "Write about a time death made you more alive.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No romanticizing. Just truth."
+  },
+  {
+    "id": 225,
+    "prompt": "Write about a time being broken became a beginning.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the hinge. The moment the breaking started to mean something."
+  },
+  {
+    "id": 226,
+    "prompt": "Write about a time you had more faith than evidence.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show what you were holding."
+  },
+  {
+    "id": 227,
+    "prompt": "Write about a time a stranger offered you exactly what you needed.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Resist explaining the coincidence. Just show it."
+  },
+  {
+    "id": 228,
+    "prompt": "Write about a time you had to choose between comfort and growth.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show what you chose and what it cost."
+  },
+  {
+    "id": 229,
+    "prompt": "Write about a time prayer felt like the only honest thing left to do.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the honesty of the act the story."
+  },
+  {
+    "id": 230,
+    "prompt": "Write about a time you sat with uncertainty and it didn't destroy you.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the survival be enough."
+  },
+  {
+    "id": 231,
+    "prompt": "Write about a time awe arrived without warning.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Chase the awe to its source. What was really at the bottom of it?"
+  },
+  {
+    "id": 232,
+    "prompt": "Write about the house you grew up in.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Pick one room. Describe it so specifically a stranger could walk into it."
+  },
+  {
+    "id": 233,
+    "prompt": "Write about a teacher who changed the direction of your life.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One moment in their classroom. Under 175 words."
+  },
+  {
+    "id": 234,
+    "prompt": "Write about the first time you understood that adults didn't have all the answers.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific crack. The moment the fa\u00e7ade slipped."
+  },
+  {
+    "id": 235,
+    "prompt": "Write about a summer that felt infinite.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Stay in the sensory world. No reflection."
+  },
+  {
+    "id": 236,
+    "prompt": "Write about a childhood friendship that shaped who you became.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one scene that captures the whole friendship."
+  },
+  {
+    "id": 237,
+    "prompt": "Write about a fear you had as a child that you now understand differently.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the adult perspective be earned at the end, not given at the start."
+  },
+  {
+    "id": 238,
+    "prompt": "Write about the first time you had to be brave.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay small. Keep the stakes at a child's scale. That's where the power is."
+  },
+  {
+    "id": 239,
+    "prompt": "Write about a gift \u2014 not a thing, but an experience or lesson \u2014 that someone gave you young.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Name the gift at the end."
+  },
+  {
+    "id": 240,
+    "prompt": "Write about a meal from childhood that is more memory than food.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Follow the taste to its source. Let food become autobiography."
+  },
+  {
+    "id": 241,
+    "prompt": "Write about a time you were embarrassed as a child and how you carried it.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Be kind to your younger self."
+  },
+  {
+    "id": 242,
+    "prompt": "The school smelled like pencil shavings and something I couldn't name.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Follow the smell. Let it unlock a whole year."
+  },
+  {
+    "id": 243,
+    "prompt": "He was the first adult who talked to me like I had something worth saying.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "One conversation. Let it change everything."
+  },
+  {
+    "id": 244,
+    "prompt": "We didn't have much, but we had more than I knew.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show the richness inside the scarcity."
+  },
+  {
+    "id": 245,
+    "prompt": "The last day of school felt different every year.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Pick one specific last day. Stay there."
+  },
+  {
+    "id": 246,
+    "prompt": "I wanted to be so many things before I knew what I was.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Name three things you wanted to be. Find the thread."
+  },
+  {
+    "id": 247,
+    "prompt": "Write about a neighborhood you knew by foot.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Walk it again in words. Make the geography feel alive."
+  },
+  {
+    "id": 248,
+    "prompt": "Write about a moment childhood ended \u2014 not gradually, but all at once.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Find the specific moment, not a phase."
+  },
+  {
+    "id": 249,
+    "prompt": "Write about something you made as a child that you were proud of.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe it in exquisite detail. Let the pride be yours again."
+  },
+  {
+    "id": 250,
+    "prompt": "Write about a relative who scared you a little and fascinated you a lot.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Capture the complicated texture."
+  },
+  {
+    "id": 251,
+    "prompt": "Write about a decision you made as a child that your adult self is still living with.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show both versions of you \u2014 the child choosing and the adult who inherited it."
+  },
+  {
+    "id": 252,
+    "prompt": "The books I read before twelve are still living in me.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Pick one book. One scene. Show where it lives now."
+  },
+  {
+    "id": 253,
+    "prompt": "Write about the best and worst thing about where you grew up.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "One paragraph each. Under 100 words each. No transition between them."
+  },
+  {
+    "id": 254,
+    "prompt": "Write about a time you surprised yourself as a child.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the child be the hero. Don't interpret \u2014 just witness."
+  },
+  {
+    "id": 255,
+    "prompt": "Write about a game you played that taught you something you still use.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Make the lesson earned, not stated."
+  },
+  {
+    "id": 256,
+    "prompt": "Write about a piece of music that was the soundtrack to a specific period of your childhood.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Put the music on. Let it unlock the memory. Follow it."
+  },
+  {
+    "id": 257,
+    "prompt": "Write about a moment you saw injustice as a child and didn't know what to do with it.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Stay in the helplessness. Don't fix it retroactively."
+  },
+  {
+    "id": 258,
+    "prompt": "Write about a sport or physical activity that taught you about effort.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one practice, one game, one moment of exhaustion that said everything."
+  },
+  {
+    "id": 259,
+    "prompt": "Write about the first time you understood what your family had sacrificed.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the understanding arrive slowly."
+  },
+  {
+    "id": 260,
+    "prompt": "Write about a childhood ambition you've completely abandoned.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Mourn it a little. Honor it."
+  },
+  {
+    "id": 261,
+    "prompt": "Write about a scar \u2014 physical or emotional \u2014 from childhood that you wear as a story.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the scar speak."
+  },
+  {
+    "id": 262,
+    "prompt": "The corner store was the edge of my world.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Map the world. Then map the edge."
+  },
+  {
+    "id": 263,
+    "prompt": "Write about the first time you were alone for a significant stretch of time.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What did you learn about yourself?"
+  },
+  {
+    "id": 264,
+    "prompt": "Write about a moment you saw your parents in their full, complicated humanity.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the crack in the parent-shape. Let the person show through."
+  },
+  {
+    "id": 265,
+    "prompt": "Write about a childhood photo that tells a story different from the one you remember.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. What does the photo know that you forgot?"
+  },
+  {
+    "id": 266,
+    "prompt": "Write about a lie you told as a child and what it cost.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the child's logic. Don't moralize from adulthood."
+  },
+  {
+    "id": 267,
+    "prompt": "Write about the sound of your childhood home.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Only sound. No visuals."
+  },
+  {
+    "id": 268,
+    "prompt": "Write about a formative rejection \u2014 academic, social, athletic \u2014 and what it made.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Sit in the rejection first. Earn the making."
+  },
+  {
+    "id": 269,
+    "prompt": "Write about a childhood hero who turned out to be human.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be generous in the disillusionment."
+  },
+  {
+    "id": 270,
+    "prompt": "Write about a lesson you learned the hard way before you were ten.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the lesson live in the scene. Don't state it directly."
+  },
+  {
+    "id": 271,
+    "prompt": "Write about a time you felt fully known as a child.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the knowing be the gift."
+  },
+  {
+    "id": 272,
+    "prompt": "The summer I turned twelve, everything felt like it was about to change.",
+    "domain": "childhood_formative",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what was about to change. Stay on the threshold."
+  },
+  {
+    "id": 273,
+    "prompt": "Write about a creative act \u2014 drawing, writing, building \u2014 you did compulsively as a child.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. What were you saying?"
+  },
+  {
+    "id": 274,
+    "prompt": "Write about a time you had to translate for your family \u2014 culturally, linguistically, emotionally.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the weight of the translation. Show what it took to carry it."
+  },
+  {
+    "id": 275,
+    "prompt": "Write about the first loss you understood as loss.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the grief be unprocessed. That's where the truth is."
+  },
+  {
+    "id": 276,
+    "prompt": "Write about a time you were the new kid.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one detail \u2014 a lunch table, a name mispronounced \u2014 that captures the whole experience."
+  },
+  {
+    "id": 277,
+    "prompt": "Write about a place you returned to as an adult that was smaller than you remembered.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. What did the smallness teach you?"
+  },
+  {
+    "id": 278,
+    "prompt": "Write about a formative argument you witnessed between adults as a child.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the child's understanding. Don't apply adult context."
+  },
+  {
+    "id": 279,
+    "prompt": "Write about a time you kept a secret for someone in your family.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What did the secret cost you?"
+  },
+  {
+    "id": 280,
+    "prompt": "Write about a childhood version of yourself that you've lost touch with.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one quality. Show where it went."
+  },
+  {
+    "id": 281,
+    "prompt": "Write about a time as a child when you felt completely free.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. No nostalgia allowed \u2014 just the feeling itself."
+  },
+  {
+    "id": 282,
+    "prompt": "Write about a cultural difference you navigated as a child.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one specific moment of navigation. The gap between two worlds."
+  },
+  {
+    "id": 283,
+    "prompt": "Write about a childhood game that had rules only your group understood.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Explain the rules. Explain what the game was really about."
+  },
+  {
+    "id": 284,
+    "prompt": "Write about the first time you chose your own path over the expected one.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the moment of choice. Make it small and specific."
+  },
+  {
+    "id": 285,
+    "prompt": "Write about the school subject that defined you \u2014 positively or negatively.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Find the identity embedded in the grade."
+  },
+  {
+    "id": 286,
+    "prompt": "Write about a formative conversation that happened in a car.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the car \u2014 the forward motion, no eye contact \u2014 as part of the story."
+  },
+  {
+    "id": 287,
+    "prompt": "Write about a time childhood felt like something to escape.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Be honest. Don't romanticize."
+  },
+  {
+    "id": 288,
+    "prompt": "Write about a time childhood felt like something to hold forever.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific thing you were holding. Make it sensory."
+  },
+  {
+    "id": 289,
+    "prompt": "Write about the way your childhood prepared you for something you didn't know was coming.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. The preparation can be in the most unlikely place."
+  },
+  {
+    "id": 290,
+    "prompt": "Write about a moment you realized you were different from your peers.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the difference without judgment \u2014 yours or theirs."
+  },
+  {
+    "id": 291,
+    "prompt": "Write about a formative piece of advice you received before you were ready for it.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show when you finally were ready."
+  },
+  {
+    "id": 292,
+    "prompt": "Write about a time you outgrew something you loved.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the outgrowing feel like a small grief."
+  },
+  {
+    "id": 293,
+    "prompt": "Write about a formative summer camp, trip, or away-from-home experience.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. One moment. One thing it opened."
+  },
+  {
+    "id": 294,
+    "prompt": "Write about the first time you earned something.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the earning, not just the having."
+  },
+  {
+    "id": 295,
+    "prompt": "Write about a time your imagination built a whole world.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Take the reader into that world."
+  },
+  {
+    "id": 296,
+    "prompt": "Write about the first funeral you attended and what it taught you.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the child's experience. Don't import adult understanding."
+  },
+  {
+    "id": 297,
+    "prompt": "Write about a time you had to translate your identity for someone who didn't have context.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show what you simplified. Show what that cost."
+  },
+  {
+    "id": 298,
+    "prompt": "Write about a childhood version of a problem you're still working on.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show both versions side by side. Find the thread between them."
+  },
+  {
+    "id": 299,
+    "prompt": "Write about a place from childhood that only exists now in your memory.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Preserve it. Make it real."
+  },
+  {
+    "id": 300,
+    "prompt": "Write about the first person outside your family who believed in you.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one thing they did that said it without words."
+  },
+  {
+    "id": 301,
+    "prompt": "Write about a time you chose loyalty over truth as a child.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Don't judge. Just tell."
+  },
+  {
+    "id": 302,
+    "prompt": "Write about a piece of childhood wisdom you've carried into adulthood.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show it in use. A recent moment where it showed up."
+  },
+  {
+    "id": 303,
+    "prompt": "Write about the child you were and what they would think of you now.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be honest about both the pride and the disappointment."
+  },
+  {
+    "id": 304,
+    "prompt": "Write about the moment you arrived somewhere that felt like recognition, not discovery.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific sensory detail that triggered the feeling."
+  },
+  {
+    "id": 305,
+    "prompt": "Write about a city that changed how you see your own.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. One comparison. Make it sharp."
+  },
+  {
+    "id": 306,
+    "prompt": "Write about a journey where the point was the journey itself.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one moment that could only have happened in transit."
+  },
+  {
+    "id": 307,
+    "prompt": "Write about the last place you went that you weren't expecting to love.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the surprise be the story."
+  },
+  {
+    "id": 308,
+    "prompt": "Write about a travel experience that humbled you.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the humbling through what you didn't know you didn't know."
+  },
+  {
+    "id": 309,
+    "prompt": "Write about a meal in another country that was the whole trip.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay at that table."
+  },
+  {
+    "id": 310,
+    "prompt": "Write about a place you've returned to across different seasons of your life.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show two visits. Let the gap between them be the real subject."
+  },
+  {
+    "id": 311,
+    "prompt": "Write about a time you got genuinely lost and what you found.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't romanticize. But don't deny the finding."
+  },
+  {
+    "id": 312,
+    "prompt": "Write about a city you know only at night.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the darkness shape the whole portrait."
+  },
+  {
+    "id": 313,
+    "prompt": "Write about a place that held grief for you.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the place absorb it."
+  },
+  {
+    "id": 314,
+    "prompt": "The airport at 4am is its own country.",
+    "domain": "travel_place",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Map its customs, its citizens, its language."
+  },
+  {
+    "id": 315,
+    "prompt": "He said the city looked different when you'd lived through something in it.",
+    "domain": "travel_place",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the before and after. Show how the skyline changed."
+  },
+  {
+    "id": 316,
+    "prompt": "I came for three days and stayed for three weeks.",
+    "domain": "travel_place",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What held you there?"
+  },
+  {
+    "id": 317,
+    "prompt": "The neighborhood had been in the guidebook once. It wasn't anymore.",
+    "domain": "travel_place",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what was lost. Find what replaced it. Hold both."
+  },
+  {
+    "id": 318,
+    "prompt": "I've been to the same city six times and never seen the same place twice.",
+    "domain": "travel_place",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Two visits. The difference between them."
+  },
+  {
+    "id": 319,
+    "prompt": "Write about a border crossing that was more than geographic.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the border as a metaphor. What were you crossing into?"
+  },
+  {
+    "id": 320,
+    "prompt": "Write about a place you've never been but have visited in your imagination.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Make the imagined place real."
+  },
+  {
+    "id": 321,
+    "prompt": "Write about a return trip to somewhere that mattered.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what changed \u2014 the place, you, or both."
+  },
+  {
+    "id": 322,
+    "prompt": "Write about a time travel stripped away your usual self.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. What was left?"
+  },
+  {
+    "id": 323,
+    "prompt": "Write about a stranger you met while traveling who stayed with you.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Give them a full portrait in one scene."
+  },
+  {
+    "id": 324,
+    "prompt": "Write about the place in the world that feels most like home that isn't your home.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show why, not just where."
+  },
+  {
+    "id": 325,
+    "prompt": "Write about a time you traveled to understand something about your own history.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific moment of understanding. Make it the center."
+  },
+  {
+    "id": 326,
+    "prompt": "Write about a place that smelled like memory.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay in the nose. Let it navigate."
+  },
+  {
+    "id": 327,
+    "prompt": "Write about a hotel room that became a sanctuary.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what you did in that room that you couldn't do at home."
+  },
+  {
+    "id": 328,
+    "prompt": "Write about a long flight where something shifted.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What were you before? What were you when you landed?"
+  },
+  {
+    "id": 329,
+    "prompt": "Write about a place that was nothing like you expected and better for it.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the expectation first. Then let the reality dismantle it."
+  },
+  {
+    "id": 330,
+    "prompt": "Write about a time you traveled alone for the first time.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Find the freedom and the fear in the same moment."
+  },
+  {
+    "id": 331,
+    "prompt": "Write about a neighborhood in a foreign city that felt like yours.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use one street, one corner, one routine to make the claim."
+  },
+  {
+    "id": 332,
+    "prompt": "Write about a place that no longer exists the way you knew it.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What did you keep? What had to go?"
+  },
+  {
+    "id": 333,
+    "prompt": "Write about a landscape that rewired something in your brain.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific visual that changed how you see."
+  },
+  {
+    "id": 334,
+    "prompt": "The flight home is never the same as the flight out.",
+    "domain": "travel_place",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what you're carrying back that you didn't pack."
+  },
+  {
+    "id": 335,
+    "prompt": "Write about a market or bazaar that was the whole world for an hour.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Stay inside. Don't leave until the story is done."
+  },
+  {
+    "id": 336,
+    "prompt": "Write about a time a place demanded something of you.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the place be the agent. You're the one who has to respond."
+  },
+  {
+    "id": 337,
+    "prompt": "Write about a mosque, church, temple, or sacred space you visited as a traveler.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What was it like to be a guest in someone else's sacred?"
+  },
+  {
+    "id": 338,
+    "prompt": "Write about a road trip where the destination was the wrong point.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the real point. Make it the ending."
+  },
+  {
+    "id": 339,
+    "prompt": "Write about traveling to a place your parents were from.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Find the inheritance in the geography."
+  },
+  {
+    "id": 340,
+    "prompt": "Write about a time weather changed the entire experience of a place.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the weather be a character with intentions."
+  },
+  {
+    "id": 341,
+    "prompt": "Write about a place you were afraid to go and went anyway.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show what the fear was protecting."
+  },
+  {
+    "id": 342,
+    "prompt": "Write about a city you could have lived in under different circumstances.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Invent the life you would have had there. Make it specific."
+  },
+  {
+    "id": 343,
+    "prompt": "Write about a travel experience that changed your politics.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show the shift through one specific interaction."
+  },
+  {
+    "id": 344,
+    "prompt": "Write about a photograph you took while traveling that doesn't capture what you remember.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe both. The photo and the actual. Let the gap be the story."
+  },
+  {
+    "id": 345,
+    "prompt": "Write about a place you loved visiting and would never want to live.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Explain the distinction."
+  },
+  {
+    "id": 346,
+    "prompt": "Write about the most disorienting place you've ever been.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the disorientation. Don't resolve it too quickly."
+  },
+  {
+    "id": 347,
+    "prompt": "Write about a time travel put you in the presence of something ancient.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the age of the thing change your sense of your own time."
+  },
+  {
+    "id": 348,
+    "prompt": "Write about a journey that was more internal than external.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the external journey as a map for the internal one."
+  },
+  {
+    "id": 349,
+    "prompt": "Write about the first time you traveled somewhere you'd only read about.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. What survived the translation from page to place?"
+  },
+  {
+    "id": 350,
+    "prompt": "Write about a travel experience where you were the outsider in a new way.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what the outsider perspective revealed."
+  },
+  {
+    "id": 351,
+    "prompt": "Write about a place where time moved differently.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't explain \u2014 just inhabit."
+  },
+  {
+    "id": 352,
+    "prompt": "Write about a spontaneous detour that became the whole point.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the moment you left the plan. Let the departure be the opening."
+  },
+  {
+    "id": 353,
+    "prompt": "Write about a place that asked you to be quiet.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Honor the quiet in the writing too."
+  },
+  {
+    "id": 354,
+    "prompt": "Write about a time being a foreigner was a gift.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what the foreigner status let you see that locals couldn't."
+  },
+  {
+    "id": 355,
+    "prompt": "Write about a body of water \u2014 ocean, river, lake \u2014 that held a memory.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the water be the archive."
+  },
+  {
+    "id": 356,
+    "prompt": "Write about a place you visited during a transition in your life.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show both the place and the transition. Let them reflect each other."
+  },
+  {
+    "id": 357,
+    "prompt": "Write about a time you traveled to process something.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What did the movement do?"
+  },
+  {
+    "id": 358,
+    "prompt": "Write about a landmark that was everything and nothing like you expected.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Give it two paragraphs: expectation, then reality."
+  },
+  {
+    "id": 359,
+    "prompt": "Write about the feeling of landing somewhere after a very long journey.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay in the body. What did arrival feel like?"
+  },
+  {
+    "id": 360,
+    "prompt": "Write about a time a local showed you the real city inside the tourist city.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find one thing they showed you. Make it the gift."
+  },
+  {
+    "id": 361,
+    "prompt": "Write about a place that felt like it was keeping a secret.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't reveal the secret. Let it stay encrypted."
+  },
+  {
+    "id": 362,
+    "prompt": "Write about the most beautiful thing you've seen while traveling.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe it until the reader sees it exactly as you did."
+  },
+  {
+    "id": 363,
+    "prompt": "Write about a place that gave you back something you'd lost.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show what you left with that you didn't arrive with."
+  },
+  {
+    "id": 364,
+    "prompt": "Write about a time the journey was harder than expected and you're grateful for that.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the hardness first. Earn the gratitude."
+  },
+  {
+    "id": 365,
+    "prompt": "Write about a place that made you think about mortality.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Be specific. No abstractions."
+  },
+  {
+    "id": 366,
+    "prompt": "Write about a window view from a trip that you still think about.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Recreate the view exactly. Then say what you were thinking."
+  },
+  {
+    "id": 367,
+    "prompt": "Write about a time you felt most yourself far from home.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What does that say about home?"
+  },
+  {
+    "id": 368,
+    "prompt": "Write about a place that made you feel like a child again.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific detail that did it."
+  },
+  {
+    "id": 369,
+    "prompt": "Write about a journey you took for someone else.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show what it gave you back."
+  },
+  {
+    "id": 370,
+    "prompt": "Write about a city that broke your heart a little.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific thing that broke it. Make it small and specific."
+  },
+  {
+    "id": 371,
+    "prompt": "Write about a place that made you want to be a better writer.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. What did it show you language could do?"
+  },
+  {
+    "id": 372,
+    "prompt": "Write about a time you shared a travel experience with someone and you each came back different.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show both differences. Let them coexist without explanation."
+  },
+  {
+    "id": 373,
+    "prompt": "Write about a place that is sacred to you for no reason you can fully explain.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't explain. Just honor."
+  },
+  {
+    "id": 374,
+    "prompt": "Write about the first time money felt real.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the specific transaction \u2014 the exchange, the cost, the feeling after."
+  },
+  {
+    "id": 375,
+    "prompt": "Write about a financial decision that taught you something about yourself.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No jargon. Make it human."
+  },
+  {
+    "id": 376,
+    "prompt": "Write about a risk you took that didn't pan out and would take again.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Separate the outcome from the decision. Honor the decision."
+  },
+  {
+    "id": 377,
+    "prompt": "Write about a time you said no to money and why.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the no be the hero."
+  },
+  {
+    "id": 378,
+    "prompt": "Write about the most important financial lesson you learned from your parents.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show it through one specific moment, not as a stated lesson."
+  },
+  {
+    "id": 379,
+    "prompt": "Write about a time the numbers were right and the decision still felt wrong.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Trust the feeling in the writing."
+  },
+  {
+    "id": 380,
+    "prompt": "Write about a moment you understood what you were actually working for.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment the abstraction became concrete."
+  },
+  {
+    "id": 381,
+    "prompt": "Write about a risk that cost you something and gave you something else.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Hold both honestly."
+  },
+  {
+    "id": 382,
+    "prompt": "Write about a time you had less money than you needed and more resourcefulness than you expected.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the resourcefulness surprise you as you write it."
+  },
+  {
+    "id": 383,
+    "prompt": "Write about the relationship between money and security in your family growing up.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show it through a specific scene."
+  },
+  {
+    "id": 384,
+    "prompt": "The offer was better than I deserved. That was the problem.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Explore the discomfort of unearned reward. What does it ask of you?"
+  },
+  {
+    "id": 385,
+    "prompt": "Write about a time you overcame the fear of asking for more.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show the fear first."
+  },
+  {
+    "id": 386,
+    "prompt": "Write about a bet you made on yourself.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the moment you placed the bet. Make it specific and real."
+  },
+  {
+    "id": 387,
+    "prompt": "Write about a time financial pressure revealed something about your character.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be honest about what was revealed."
+  },
+  {
+    "id": 388,
+    "prompt": "Write about a decision where the right answer wasn't the profitable one.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the choosing moment. Let the reader feel the weight."
+  },
+  {
+    "id": 389,
+    "prompt": "Write about the first thing you bought with money you'd earned yourself.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. What did it feel like to own it?"
+  },
+  {
+    "id": 390,
+    "prompt": "Write about a time generosity cost you something real.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the cost tangible. Don't minimize it."
+  },
+  {
+    "id": 391,
+    "prompt": "Write about a time you had to rebuild financially.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Find the dignity in the rebuild."
+  },
+  {
+    "id": 392,
+    "prompt": "Write about a time money complicated a relationship.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the complication through one conversation or transaction."
+  },
+  {
+    "id": 393,
+    "prompt": "Write about the decision that required the most courage you've had to show.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't downplay the courage."
+  },
+  {
+    "id": 394,
+    "prompt": "We signed the deal. Then the market changed.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the moment after. The decision had already been made."
+  },
+  {
+    "id": 395,
+    "prompt": "Write about a time you had to choose between two good options.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show what the choice revealed about your values."
+  },
+  {
+    "id": 396,
+    "prompt": "Write about a time someone trusted you with a significant financial decision.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the weight of that trust in your body, your sleep, your thinking."
+  },
+  {
+    "id": 397,
+    "prompt": "Write about a time the market or circumstances humbled you.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. No bitterness."
+  },
+  {
+    "id": 398,
+    "prompt": "Write about a time you had to make a major decision with 24 hours notice.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the compressed decision-making in real time."
+  },
+  {
+    "id": 399,
+    "prompt": "Write about a negotiation that was really about something other than money.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Find what it was really about."
+  },
+  {
+    "id": 400,
+    "prompt": "Write about a time you stayed when you could have left and made more money elsewhere.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what kept you. Honor it."
+  },
+  {
+    "id": 401,
+    "prompt": "Write about a time you left when you could have stayed and made more money.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show what you chose instead."
+  },
+  {
+    "id": 402,
+    "prompt": "Write about a time you invested in something the numbers couldn't justify.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the logic that wasn't in the spreadsheet."
+  },
+  {
+    "id": 403,
+    "prompt": "Write about a time you had to trust someone else's judgment completely.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show what trust felt like in practice."
+  },
+  {
+    "id": 404,
+    "prompt": "The term sheet was clean. My gut was not.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Follow the gut. Show where it led."
+  },
+  {
+    "id": 405,
+    "prompt": "Write about a time failure turned out to be the best investment.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't arrive at that conclusion too quickly."
+  },
+  {
+    "id": 406,
+    "prompt": "Write about a time you had to make a decision for future-you that present-you resented.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let present-you have a voice. Then let future-you respond."
+  },
+  {
+    "id": 407,
+    "prompt": "Write about a time a mentor's advice saved you from a bad decision.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Give them full credit."
+  },
+  {
+    "id": 408,
+    "prompt": "Write about a time you knew the risk was worth it before you had any proof.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in that certainty. Let the reader feel its strangeness."
+  },
+  {
+    "id": 409,
+    "prompt": "Write about the first real thing you built and what you would have paid to keep it.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Name the price."
+  },
+  {
+    "id": 410,
+    "prompt": "Write about a decision that seemed small at the time and wasn't.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the small decision and its big shadow."
+  },
+  {
+    "id": 411,
+    "prompt": "Write about a time you had to choose between security and meaning.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Don't pretend it was easy."
+  },
+  {
+    "id": 412,
+    "prompt": "Write about a time patience was the most profitable thing you did.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what it cost to wait."
+  },
+  {
+    "id": 413,
+    "prompt": "Write about a financial belief you inherited that you've had to unlearn.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be generous to where the belief came from."
+  },
+  {
+    "id": 414,
+    "prompt": "Write about a time you asked for help with a hard decision.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the asking. The vulnerability of it."
+  },
+  {
+    "id": 415,
+    "prompt": "Write about a time you made a decision that no one agreed with, and you were right.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No gloating. Just the truth."
+  },
+  {
+    "id": 416,
+    "prompt": "Write about a time you made a decision that no one agreed with, and you were wrong.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Be honest about the cost."
+  },
+  {
+    "id": 417,
+    "prompt": "Write about a time you had to explain a difficult financial decision to someone who would be affected.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show both perspectives. Hold them both."
+  },
+  {
+    "id": 418,
+    "prompt": "Write about the decision you are most proud of that no one will ever see on a resume.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let it be proud without being loud."
+  },
+  {
+    "id": 419,
+    "prompt": "Write about a time you realized that winning a negotiation had a cost.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the cost in the relationship, not the transaction."
+  },
+  {
+    "id": 420,
+    "prompt": "Write about a time you put your money where your mouth was.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Describe the gap between saying and doing."
+  },
+  {
+    "id": 421,
+    "prompt": "Write about a time someone bet on you and it changed your trajectory.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show what their belief gave you access to."
+  },
+  {
+    "id": 422,
+    "prompt": "Write about a time you had to choose between speed and thoroughness.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show which you chose and why."
+  },
+  {
+    "id": 423,
+    "prompt": "Write about a time being resourceful was more valuable than being funded.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the creative constraint. Make it the protagonist."
+  },
+  {
+    "id": 424,
+    "prompt": "Write about a time you held the line on price and it cost you the deal.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Was it worth it? Be honest."
+  },
+  {
+    "id": 425,
+    "prompt": "Write about a time you realized the goal had changed and the strategy hadn't caught up.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the lag. Show what it cost."
+  },
+  {
+    "id": 426,
+    "prompt": "Write about a time you had to make peace with a decision you couldn't undo.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Show the peace as a process, not a resolution."
+  },
+  {
+    "id": 427,
+    "prompt": "Write about the version of success you used to want that you've outgrown.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Be specific about what you wanted. Be honest about what replaced it."
+  },
+  {
+    "id": 428,
+    "prompt": "Write about a time a deal fell through and it was the best thing that happened to you.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Don't arrive at the gift too fast."
+  },
+  {
+    "id": 429,
+    "prompt": "Write about a calculated risk that required you to trust your own data over the consensus.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the loneliness of the contrarian position."
+  },
+  {
+    "id": 430,
+    "prompt": "Write about a stranger on public transit who told a whole story without saying a word.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay entirely outside them. Infer everything. State nothing."
+  },
+  {
+    "id": 431,
+    "prompt": "Write about an overheard conversation that stayed with you.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Use only what you heard. No filling in."
+  },
+  {
+    "id": 432,
+    "prompt": "Write about a moment in a restaurant that contained a whole relationship.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Pick one table. Stay there for the whole piece."
+  },
+  {
+    "id": 433,
+    "prompt": "Write about a person doing their job with extraordinary care when no one was watching.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the care be the whole story."
+  },
+  {
+    "id": 434,
+    "prompt": "Write about a moment of unexpected kindness between strangers.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the observation. Don't insert yourself."
+  },
+  {
+    "id": 435,
+    "prompt": "Write about a crowd that had one person moving against it.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Follow the one person."
+  },
+  {
+    "id": 436,
+    "prompt": "Write about a window you looked through at the right moment.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay at the glass. What was on the other side?"
+  },
+  {
+    "id": 437,
+    "prompt": "Write about someone waiting \u2014 for a bus, a person, a phone call \u2014 and what the waiting said.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. What is the waiting a metaphor for?"
+  },
+  {
+    "id": 438,
+    "prompt": "Write about a child and an old person in the same space at the same time.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the contrast carry the meaning without stating it."
+  },
+  {
+    "id": 439,
+    "prompt": "Write about a moment you witnessed something break \u2014 physically or otherwise.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Stay with the moment of breaking, not the aftermath."
+  },
+  {
+    "id": 440,
+    "prompt": "The barista remembered her order without being asked.",
+    "domain": "observed_scenes",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the small recognition feel enormous. Why?"
+  },
+  {
+    "id": 441,
+    "prompt": "Two people said goodbye at the gate and I couldn't tell if it was for a week or forever.",
+    "domain": "observed_scenes",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Preserve the not-knowing."
+  },
+  {
+    "id": 442,
+    "prompt": "He laughed and the whole room shifted.",
+    "domain": "observed_scenes",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make a laugh the load-bearing element of a story."
+  },
+  {
+    "id": 443,
+    "prompt": "Write about a moment in a city street that felt cinematic.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Describe it frame by frame."
+  },
+  {
+    "id": 444,
+    "prompt": "Write about a moment of play you observed \u2014 in children, animals, or adults.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the play be the argument for something. What is it arguing for?"
+  },
+  {
+    "id": 445,
+    "prompt": "Write about the most interesting face you've ever seen on a stranger.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No psychologizing. Just the face."
+  },
+  {
+    "id": 446,
+    "prompt": "Write about a moment of shared experience with strangers.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the instant of communion. Make it the center."
+  },
+  {
+    "id": 447,
+    "prompt": "Write about a place at two different times of day.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Two paragraphs. What changes? What doesn't?"
+  },
+  {
+    "id": 448,
+    "prompt": "Write about a scene you wish you'd had a camera for.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe it so precisely the camera becomes unnecessary."
+  },
+  {
+    "id": 449,
+    "prompt": "Write about someone who was clearly in the wrong city.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. How did you know?"
+  },
+  {
+    "id": 450,
+    "prompt": "Write about a moment of grief you witnessed from a distance.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Honor the privacy of the grief. Hold it gently."
+  },
+  {
+    "id": 451,
+    "prompt": "Write about an argument you witnessed that you couldn't stop watching.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No editorializing. Just witness."
+  },
+  {
+    "id": 452,
+    "prompt": "Write about a moment of silence in a public place that felt shared.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Give the silence texture. Make it feel like weather."
+  },
+  {
+    "id": 453,
+    "prompt": "Write about someone elderly doing something that surprised you.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the surprise be generous."
+  },
+  {
+    "id": 454,
+    "prompt": "Write about a dog and its owner and what they said about each other.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the relationship as a mirror. What did it reflect?"
+  },
+  {
+    "id": 455,
+    "prompt": "Write about a moment in nature you happened to witness.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. No human in this one except as witness."
+  },
+  {
+    "id": 456,
+    "prompt": "Write about a market, a shop, or a vendor who was a whole world.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Map the world in one scene. Make it feel infinite."
+  },
+  {
+    "id": 457,
+    "prompt": "Write about a moment you saw someone be completely themselves.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. What does being completely oneself look like?"
+  },
+  {
+    "id": 458,
+    "prompt": "Write about something you observed that you still don't understand.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Describe it without reaching for interpretation. Let the mystery stand."
+  },
+  {
+    "id": 459,
+    "prompt": "Write about a moment of beauty in an ugly place.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the beauty win without sentimentality."
+  },
+  {
+    "id": 460,
+    "prompt": "She was reading the same book I had just finished.",
+    "domain": "observed_scenes",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Use the shared book as a portal. Where does it take you?"
+  },
+  {
+    "id": 461,
+    "prompt": "Write about a performance \u2014 street, formal, accidental \u2014 that stopped you.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Stay for the whole thing."
+  },
+  {
+    "id": 462,
+    "prompt": "Write about a moment of reunion you witnessed.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the exact moment of recognition. Slow all the way down."
+  },
+  {
+    "id": 463,
+    "prompt": "Write about something that was clearly a ritual, though you didn't know whose.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Describe it as if you're an anthropologist."
+  },
+  {
+    "id": 464,
+    "prompt": "Write about the last person you saw who was truly at ease.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Capture ease as a physical state. What does it look like?"
+  },
+  {
+    "id": 465,
+    "prompt": "Write about a room before anyone arrived and after everyone left.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Two paragraphs. Let the room tell the story."
+  },
+  {
+    "id": 466,
+    "prompt": "Write about something mundane that, watched closely, became extraordinary.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the mundane until it breaks open."
+  },
+  {
+    "id": 467,
+    "prompt": "Write about a child doing something adult and an adult doing something childlike.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. One paragraph each. Let them echo."
+  },
+  {
+    "id": 468,
+    "prompt": "Write about a moment of grace in a chaotic environment.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Let the chaos make the grace more visible."
+  },
+  {
+    "id": 469,
+    "prompt": "Write about someone working with their hands.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Make the hands the subject."
+  },
+  {
+    "id": 470,
+    "prompt": "Write about a laugh you heard that told you a story.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Translate the laugh into its meaning. Make it precise."
+  },
+  {
+    "id": 471,
+    "prompt": "Write about a moment in a library or bookshop that felt sacred.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Honor the quiet."
+  },
+  {
+    "id": 472,
+    "prompt": "Write about a moment two strangers helped each other without words.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the nonverbal. No dialogue."
+  },
+  {
+    "id": 473,
+    "prompt": "Write about a scene at dusk that seemed to summarize the whole day.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. What did the day need to say?"
+  },
+  {
+    "id": 474,
+    "prompt": "Write about a thing a child said that an adult should have.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the child's clarity the story."
+  },
+  {
+    "id": 475,
+    "prompt": "Write about a moment when something lost turned up.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. Let the finding be the whole world."
+  },
+  {
+    "id": 476,
+    "prompt": "Write about a scene that contained multitudes in a single glance.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Slow it down. Unpack every layer."
+  },
+  {
+    "id": 477,
+    "prompt": "Write about a moment you were moved by someone's dignity.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the dignity be the argument."
+  },
+  {
+    "id": 478,
+    "prompt": "Write about something you saw that made you want to be a better person.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Don't state the moral. Show what you saw. Let the reader do the rest."
+  },
+  {
+    "id": 479,
+    "prompt": "Write about a moment in which the world felt exactly right.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. No explaining. Just be in it."
+  },
+  {
+    "id": 480,
+    "prompt": "Write about a stranger whose grief or joy radiated and changed the room.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the radiation. How did the room change?"
+  },
+  {
+    "id": 481,
+    "prompt": "Write about a time you had to start over in your career and what you kept from before.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what survived the restart. Make it the foundation."
+  },
+  {
+    "id": 482,
+    "prompt": "Write about a time you saw a competitor do something you respected.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No false humility. Just honest admiration."
+  },
+  {
+    "id": 483,
+    "prompt": "Write about the day you first felt like a professional.",
+    "domain": "work_leadership",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the small moment. The ID badge, the handshake, the first real decision."
+  },
+  {
+    "id": 484,
+    "prompt": "Write about a time you had to make a promise to a family member about work and keep it.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show what keeping it cost."
+  },
+  {
+    "id": 485,
+    "prompt": "Write about a time you had to ask a family member for forgiveness.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the asking, not just the granting."
+  },
+  {
+    "id": 486,
+    "prompt": "Write about the first time you realized your parents were getting older.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Stay in the specific moment."
+  },
+  {
+    "id": 487,
+    "prompt": "Write about a time you witnessed someone else's family and felt something shift in you.",
+    "domain": "family_relationships",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find what their family showed you about yours."
+  },
+  {
+    "id": 488,
+    "prompt": "Write about a prayer you've said so many times it's become muscle memory \u2014 and one time it wasn't.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Find the time it broke open. Make that time the story."
+  },
+  {
+    "id": 489,
+    "prompt": "Write about a time a spiritual practice cost you social capital.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show both the cost and the keeping."
+  },
+  {
+    "id": 490,
+    "prompt": "Write about a moment of istikhara \u2014 or any seeking of guidance \u2014 and what came.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the seeking. Let the answer be subtle."
+  },
+  {
+    "id": 491,
+    "prompt": "Write about a landscape that felt like it was praising something.",
+    "domain": "faith_inner_life",
+    "phrasing_style": "evocative",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. No explaining. Let the praise be in the description."
+  },
+  {
+    "id": 492,
+    "prompt": "Write about a time you were homesick in a place you'd never been before.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Explore the paradox. What were you homesick for?"
+  },
+  {
+    "id": 493,
+    "prompt": "Write about a city that was living two eras simultaneously.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Find one detail that shows both eras at once."
+  },
+  {
+    "id": 494,
+    "prompt": "Write about a journey that began badly and became something else.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Show the turning point. Let it be small and unexpected."
+  },
+  {
+    "id": 495,
+    "prompt": "Write about a time you were overcharged as a tourist and paid anyway.",
+    "domain": "travel_place",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 150 words. What did the payment actually buy?"
+  },
+  {
+    "id": 496,
+    "prompt": "Write about a moment you realized you were wealthy compared to the people around you.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Stay in the discomfort. Don't reach for resolution."
+  },
+  {
+    "id": 497,
+    "prompt": "Write about a financial model that turned out to be a story you told yourself.",
+    "domain": "money_risk_decisions",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Show where the story broke."
+  },
+  {
+    "id": 498,
+    "prompt": "Write about a time you saw someone give away something they couldn't afford to lose.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "technique",
+    "craft_nudge_text": "Make the giving the whole story. Don't explain the person."
+  },
+  {
+    "id": 499,
+    "prompt": "Write about a moment of unexpected laughter in a serious situation.",
+    "domain": "observed_scenes",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 175 words. Let the laughter be earned."
+  },
+  {
+    "id": 500,
+    "prompt": "Write about a time your childhood self would have been proud of your adult self.",
+    "domain": "childhood_formative",
+    "phrasing_style": "direct",
+    "craft_nudge_type": "constraint",
+    "craft_nudge_text": "Under 200 words. Let the child be the judge."
+  }
+]
