@@ -139,7 +139,7 @@ export default function Write() {
       setTimeout(() => navigate(`/entry/${ref.id}`), 600)
     } catch (e) {
       console.error(e)
-      setSaveError('Could not save. Check your connection and try again.')
+      setSaveError(`Could not save: ${e?.code || e?.message || 'Unknown error'}`)
       setSaving(false)
     }
   }
