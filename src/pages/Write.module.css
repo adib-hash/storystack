@@ -54,6 +54,17 @@
 .filter:hover { border-color: var(--amber); color: var(--amber); }
 .filterActive { border-color: var(--amber) !important; background: var(--amber-glow) !important; color: var(--amber) !important; }
 
+.filterPct {
+  margin-left: 4px;
+  font-size: 0.68rem;
+  opacity: 0.7;
+}
+.filterPctZero {
+  color: var(--amber);
+  opacity: 1;
+  font-weight: 600;
+}
+
 /* Prompt card */
 .promptCard {
   background: var(--paper-card);
@@ -156,7 +167,8 @@
 
 .editorFooter {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   padding: 8px 16px 12px;
   border-top: 1px solid var(--border);
 }
@@ -164,8 +176,33 @@
   font-size: 0.75rem;
   color: var(--ink-faint);
 }
+.shortcutHint {
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  opacity: 0.6;
+}
 
 /* Tags */
+.tagWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tagNoteInput {
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--ink);
+  outline: none;
+  width: 180px;
+}
+.tagNoteInput:focus { border-color: var(--green-soft); }
+.tagNoteInput::placeholder { color: var(--ink-faint); font-style: italic; }
+
 .tagsSection {
   display: flex;
   flex-direction: column;
@@ -191,7 +228,8 @@
 .tagsGrid {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
+  align-items: flex-start;
 }
 
 .tag {

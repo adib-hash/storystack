@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../lib/AuthContext'
 import { getEntry, updateEntry, deleteEntry } from '../lib/firebase'
 import { format } from 'date-fns'
-import { ArrowLeft, Pencil, Trash2, Check, X } from 'lucide-react'
+import { ArrowLeft, Pencil, Trash2, Check, X, RefreshCw } from 'lucide-react'
 import styles from './EntryDetail.module.css'
 
 const DOMAIN_LABELS = {
@@ -36,6 +36,7 @@ export default function EntryDetail() {
   const [editing, setEditing] = useState(false)
   const [editBody, setEditBody] = useState('')
   const [editTags, setEditTags] = useState([])
+  const [editTagNotes, setEditTagNotes] = useState({})
   const [saving, setSaving] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(false)
 
@@ -46,6 +47,7 @@ export default function EntryDetail() {
         setEntry(data)
         setEditBody(data.body)
         setEditTags(data.tags || [])
+        setEditTagNotes(data.tagNotes || {})
         setLoading(false)
       })
       .catch(err => { console.error(err); setLoadError('Could not load this entry.'); setLoading(false) })
@@ -55,8 +57,8 @@ export default function EntryDetail() {
     if (!editBody.trim() || saving) return
     setSaving(true)
     const wc = editBody.trim().split(/\s+/).filter(Boolean).length
-    await updateEntry(user.uid, id, { body: editBody.trim(), tags: editTags, wordCount: wc })
-    setEntry(prev => ({ ...prev, body: editBody.trim(), tags: editTags, wordCount: wc }))
+    await updateEntry(user.uid, id, { body: editBody.trim(), tags: editTags, tagNotes: editTagNotes, wordCount: wc })
+    setEntry(prev => ({ ...prev, body: editBody.trim(), tags: editTags, tagNotes: editTagNotes, wordCount: wc }))
     setEditing(false)
     setSaving(false)
   }
@@ -83,6 +85,8 @@ export default function EntryDetail() {
   const dateStr = entry.createdAt?.toDate
     ? format(entry.createdAt.toDate(), 'EEEE, MMMM d, yyyy')
     : 'Recently'
+
+  const readMins = Math.ceil((entry.wordCount || 0) / 200)
 
   return (
     <main className={styles.main}>
@@ -127,6 +131,7 @@ export default function EntryDetail() {
                   setEditing(false)
                   setEditBody(entry.body)
                   setEditTags(entry.tags || [])
+                  setEditTagNotes(entry.tagNotes || {})
                 }}>
                   <X size={15} />
                 </button>
@@ -151,6 +156,13 @@ export default function EntryDetail() {
               {entry.nudgeText}
             </p>
           )}
+          <Link
+            to={`/?promptId=${entry.promptId}`}
+            className={styles.writeAgainBtn}
+          >
+            <RefreshCw size={13} />
+            Write with this prompt again
+          </Link>
         </div>
 
         {/* Body */}
@@ -179,6 +191,7 @@ export default function EntryDetail() {
         {/* Stats row */}
         <div className={styles.statsRow}>
           <span className={styles.wc}>{entry.wordCount || 0} words</span>
+          {readMins > 0 && <span className={styles.wc}>· {readMins} min read</span>}
         </div>
 
         {/* Framework tags */}
@@ -189,16 +202,29 @@ export default function EntryDetail() {
               const active = editing
                 ? editTags.includes(tag.id)
                 : (entry.tags || []).includes(tag.id)
+              const note = editing ? editTagNotes[tag.id] : (entry.tagNotes || {})[tag.id]
               return (
-                <button
-                  key={tag.id}
-                  className={`${styles.tag} ${active ? styles.tagOn : ''} ${!editing ? styles.tagReadOnly : ''}`}
-                  onClick={() => editing && toggleTag(tag.id)}
-                  disabled={!editing}
-                >
-                  {active && <Check size={11} />}
-                  {tag.label}
-                </button>
+                <div key={tag.id} className={styles.tagWrap}>
+                  <button
+                    className={`${styles.tag} ${active ? styles.tagOn : ''} ${!editing ? styles.tagReadOnly : ''}`}
+                    onClick={() => editing && toggleTag(tag.id)}
+                    disabled={!editing}
+                  >
+                    {active && <Check size={11} />}
+                    {tag.label}
+                  </button>
+                  {active && editing && (
+                    <input
+                      className={styles.tagNote}
+                      placeholder="Reflection note…"
+                      value={editTagNotes[tag.id] || ''}
+                      onChange={e => setEditTagNotes(prev => ({ ...prev, [tag.id]: e.target.value }))}
+                    />
+                  )}
+                  {active && !editing && note && (
+                    <span className={styles.tagNoteReadOnly}>{note}</span>
+                  )}
+                </div>
               )
             })}
           </div>

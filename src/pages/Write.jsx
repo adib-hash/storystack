@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useState, useEffect, useRef, useCallback } from 'react'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/AuthContext'
-import { saveEntry } from '../lib/firebase'
+import { saveEntry, getEntries } from '../lib/firebase'
 import { RefreshCw, ChevronDown, ChevronUp, Check, Lightbulb } from 'lucide-react'
 import styles from './Write.module.css'
 
@@ -39,11 +39,14 @@ function getTodaySeed() {
 export default function Write() {
   const user = useAuth()
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
+  const revisitPromptId = searchParams.get('promptId')
+
   const [prompts, setPrompts] = useState([])
-  const [promptIndex, setPromptIndex] = useState(0)
   const [prompt, setPrompt] = useState(null)
   const [text, setText] = useState('')
   const [tags, setTags] = useState([])
+  const [tagNotes, setTagNotes] = useState({})
   const [showNudge, setShowNudge] = useState(false)
   const [showTags, setShowTags] = useState(false)
   const [saving, setSaving] = useState(false)
@@ -52,34 +55,57 @@ export default function Write() {
   const [wordCount, setWordCount] = useState(0)
   const [domainFilter, setDomainFilter] = useState('all')
   const [draftRestored, setDraftRestored] = useState(false)
+  const [domainCounts, setDomainCounts] = useState({})
   const textareaRef = useRef(null)
 
+  // Load prompts + restore draft or apply revisit prompt
   useEffect(() => {
     fetch('/prompts.json')
       .then(r => r.json())
       .then(data => {
         setPrompts(data)
-        const seed = getTodaySeed()
-        const todayPrompt = data[seed % data.length]
-        setPromptIndex(seed % data.length)
-        setPrompt(todayPrompt)
 
-        // Restore draft if it matches today's prompt
-        try {
-          const raw = localStorage.getItem(DRAFT_KEY)
-          if (raw) {
-            const draft = JSON.parse(raw)
-            if (draft.promptId === todayPrompt.id && draft.text) {
-              setText(draft.text)
-              setDraftRestored(true)
-              setTimeout(() => setDraftRestored(false), 2500)
+        let chosenPrompt
+        if (revisitPromptId) {
+          chosenPrompt = data.find(p => String(p.id) === String(revisitPromptId))
+        }
+
+        if (!chosenPrompt) {
+          const seed = getTodaySeed()
+          chosenPrompt = data[seed % data.length]
+        }
+
+        setPrompt(chosenPrompt)
+
+        // Restore draft if it matches current prompt
+        if (!revisitPromptId) {
+          try {
+            const raw = localStorage.getItem(DRAFT_KEY)
+            if (raw) {
+              const draft = JSON.parse(raw)
+              if (draft.promptId === chosenPrompt.id && draft.text) {
+                setText(draft.text)
+                setDraftRestored(true)
+                setTimeout(() => setDraftRestored(false), 2500)
+              }
             }
+          } catch {
+            // ignore malformed draft
           }
-        } catch {
-          // ignore malformed draft
         }
       })
-  }, [])
+  }, [revisitPromptId])
+
+  // Fetch domain distribution for rotation awareness
+  useEffect(() => {
+    getEntries(user.uid).then(entries => {
+      const counts = {}
+      entries.forEach(e => {
+        if (e.promptDomain) counts[e.promptDomain] = (counts[e.promptDomain] || 0) + 1
+      })
+      setDomainCounts(counts)
+    }).catch(() => {})
+  }, [user.uid])
 
   // Auto-save draft on text change
   useEffect(() => {
@@ -96,30 +122,9 @@ export default function Write() {
     setWordCount(text.trim() ? words.length : 0)
   }, [text])
 
-  const filteredPrompts = domainFilter === 'all'
-    ? prompts
-    : prompts.filter(p => p.domain === domainFilter)
-
-  const rollPrompt = () => {
-    if (!filteredPrompts.length) return
-    let newIdx = Math.floor(Math.random() * filteredPrompts.length)
-    setPrompt(filteredPrompts[newIdx])
-    setPromptIndex(newIdx)
-    setText('')
-    setTags([])
-    setShowNudge(false)
-    setShowTags(false)
-    setSaved(false)
-    setSaveError(null)
-    try { localStorage.removeItem(DRAFT_KEY) } catch {}
-  }
-
-  const toggleTag = (id) => {
-    setTags(prev => prev.includes(id) ? prev.filter(t => t !== id) : [...prev, id])
-  }
-
-  const handleSave = async () => {
-    if (!text.trim() || saving) return
+  // Keyboard shortcut: Cmd/Ctrl+S to save
+  const handleSave = useCallback(async () => {
+    if (!text.trim() || saving || saved) return
     setSaving(true)
     setSaveError(null)
     try {
@@ -132,6 +137,7 @@ export default function Write() {
         body: text.trim(),
         wordCount,
         tags,
+        tagNotes,
       }
       const ref = await saveEntry(user.uid, entry)
       try { localStorage.removeItem(DRAFT_KEY) } catch {}
@@ -142,7 +148,49 @@ export default function Write() {
       setSaveError('Could not save. Check your connection and try again.')
       setSaving(false)
     }
+  }, [text, saving, saved, prompt, wordCount, tags, tagNotes, user.uid, navigate])
+
+  useEffect(() => {
+    const onKeyDown = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+        e.preventDefault()
+        handleSave()
+      }
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [handleSave])
+
+  const filteredPrompts = domainFilter === 'all'
+    ? prompts
+    : prompts.filter(p => p.domain === domainFilter)
+
+  const rollPrompt = () => {
+    if (!filteredPrompts.length) return
+    const newPrompt = filteredPrompts[Math.floor(Math.random() * filteredPrompts.length)]
+    setPrompt(newPrompt)
+    setText('')
+    setTags([])
+    setTagNotes({})
+    setShowNudge(false)
+    setShowTags(false)
+    setSaved(false)
+    setSaveError(null)
+    try { localStorage.removeItem(DRAFT_KEY) } catch {}
   }
+
+  const toggleTag = (id) => {
+    setTags(prev => {
+      const next = prev.includes(id) ? prev.filter(t => t !== id) : [...prev, id]
+      // Clear note if tag removed
+      if (prev.includes(id)) {
+        setTagNotes(n => { const copy = { ...n }; delete copy[id]; return copy })
+      }
+      return next
+    })
+  }
+
+  const totalEntries = Object.values(domainCounts).reduce((s, v) => s + v, 0)
 
   if (!prompt) return (
     <div className={styles.loader}>
@@ -154,7 +202,7 @@ export default function Write() {
     <main className={styles.main}>
       <div className={styles.container}>
 
-        {/* Domain filter */}
+        {/* Domain filter with rotation awareness */}
         <div className={styles.filterRow}>
           <span className={styles.filterLabel}>Domain</span>
           <div className={styles.filters}>
@@ -162,13 +210,23 @@ export default function Write() {
               className={`${styles.filter} ${domainFilter === 'all' ? styles.filterActive : ''}`}
               onClick={() => setDomainFilter('all')}
             >All</button>
-            {Object.entries(DOMAIN_LABELS).map(([key, label]) => (
-              <button
-                key={key}
-                className={`${styles.filter} ${domainFilter === key ? styles.filterActive : ''}`}
-                onClick={() => setDomainFilter(key)}
-              >{label}</button>
-            ))}
+            {Object.entries(DOMAIN_LABELS).map(([key, label]) => {
+              const count = domainCounts[key] || 0
+              const pct = totalEntries > 0 ? Math.round((count / totalEntries) * 100) : null
+              return (
+                <button
+                  key={key}
+                  className={`${styles.filter} ${domainFilter === key ? styles.filterActive : ''}`}
+                  onClick={() => setDomainFilter(key)}
+                  title={pct !== null ? `${count} ${count === 1 ? 'story' : 'stories'} (${pct}% of archive)` : label}
+                >
+                  {label}
+                  {pct !== null && (
+                    <span className={`${styles.filterPct} ${pct === 0 ? styles.filterPctZero : ''}`}>{pct}%</span>
+                  )}
+                </button>
+              )
+            })}
           </div>
         </div>
 
@@ -216,10 +274,11 @@ export default function Write() {
           />
           <div className={styles.editorFooter}>
             <span className={styles.wc}>{wordCount} {wordCount === 1 ? 'word' : 'words'}</span>
+            <span className={styles.shortcutHint}>⌘S to save</span>
           </div>
         </div>
 
-        {/* Framework tags */}
+        {/* Framework tags with reflection notes */}
         <div className={styles.tagsSection}>
           <button
             className={styles.tagsToggle}
@@ -231,17 +290,29 @@ export default function Write() {
 
           {showTags && (
             <div className={styles.tagsGrid}>
-              {FRAMEWORK_TAGS.map(tag => (
-                <button
-                  key={tag.id}
-                  className={`${styles.tag} ${tags.includes(tag.id) ? styles.tagOn : ''}`}
-                  onClick={() => toggleTag(tag.id)}
-                  title={tag.description}
-                >
-                  {tags.includes(tag.id) && <Check size={11} />}
-                  {tag.label}
-                </button>
-              ))}
+              {FRAMEWORK_TAGS.map(tag => {
+                const isOn = tags.includes(tag.id)
+                return (
+                  <div key={tag.id} className={styles.tagWrap}>
+                    <button
+                      className={`${styles.tag} ${isOn ? styles.tagOn : ''}`}
+                      onClick={() => toggleTag(tag.id)}
+                      title={tag.description}
+                    >
+                      {isOn && <Check size={11} />}
+                      {tag.label}
+                    </button>
+                    {isOn && (
+                      <input
+                        className={styles.tagNoteInput}
+                        placeholder="Note…"
+                        value={tagNotes[tag.id] || ''}
+                        onChange={e => setTagNotes(prev => ({ ...prev, [tag.id]: e.target.value }))}
+                      />
+                    )}
+                  </div>
+                )
+              })}
             </div>
           )}
         </div>
