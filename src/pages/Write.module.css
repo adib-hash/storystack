@@ -214,6 +214,17 @@
   color: var(--green-soft) !important;
 }
 
+/* Draft restored banner */
+.draftBanner {
+  padding: 6px 16px;
+  background: var(--amber-glow);
+  color: var(--amber);
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  border-bottom: 1px solid var(--border-warm);
+  text-align: center;
+}
+
 /* Actions */
 .actions { display: flex; justify-content: flex-end; }
 
@@ -235,6 +246,13 @@
 .saveBtn:hover:not(:disabled) { background: var(--amber-light); }
 .saveBtn:disabled { opacity: 0.6; cursor: not-allowed; }
 .saveDone { background: var(--green-soft) !important; }
+
+.saveError {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--red-soft);
+  margin-top: -8px;
+}
 
 @media (max-width: 600px) {
   .main { padding: 24px 16px 80px; }

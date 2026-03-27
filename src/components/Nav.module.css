@@ -6,6 +6,11 @@
   background: rgba(245, 240, 234, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+html.dark .nav {
+  background: rgba(26, 22, 18, 0.92);
 }
 
 .inner {
@@ -42,9 +47,9 @@
   color: var(--ink-muted);
 }
 .link:hover { color: var(--ink); background: var(--paper-warm); }
-.link.active { color: var(--amber); background: var(--amber-glow); }
+.active { color: var(--amber) !important; background: var(--amber-glow) !important; }
 
-.signout {
+.iconBtn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,4 +61,130 @@
   color: var(--ink-faint);
   cursor: pointer;
 }
-.signout:hover { color: var(--ink-muted); background: var(--paper-warm); }
+.iconBtn:hover { color: var(--ink-muted); background: var(--paper-warm); }
+
+/* Settings modal */
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(26, 23, 20, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.modalCard {
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 380px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modalTitle {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.modalAccent { color: var(--amber); }
+
+.modalTagline {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin-top: -8px;
+}
+
+.modalClose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-sm);
+  color: var(--ink-faint);
+  cursor: pointer;
+}
+.modalClose:hover { color: var(--ink-muted); background: var(--paper-warm); }
+
+.modalDivider {
+  height: 1px;
+  background: var(--border);
+  margin: 0 -4px;
+}
+
+.modalRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.modalLabel {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+.modalValue {
+  font-size: 0.82rem;
+  font-family: var(--font-serif);
+  color: var(--ink);
+}
+
+/* Toggle switch */
+.toggle {
+  width: 40px;
+  height: 22px;
+  border-radius: 99px;
+  border: none;
+  background: var(--border);
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.2s ease;
+}
+.toggle:hover { background: var(--ink-faint); }
+.toggleOn { background: var(--amber) !important; }
+.toggleOn:hover { background: var(--amber-light) !important; }
+
+.toggleThumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 0.2s ease;
+  display: block;
+}
+.toggleOn .toggleThumb { transform: translateX(18px); }
+
+/* Sign out */
+.signoutBtn {
+  padding: 9px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  cursor: pointer;
+  text-align: center;
+}
+.signoutBtn:hover { border-color: var(--red-soft); color: var(--red-soft); }

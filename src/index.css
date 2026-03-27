@@ -60,3 +60,21 @@ button, a, .interactive {
 
 /* Prevent iOS zoom on inputs */
 input, textarea, select { font-size: 16px !important; }
+
+/* Dark / night mode — warm dark palette that preserves the paper+ink aesthetic */
+html.dark {
+  --ink: #e8e0d5;
+  --ink-soft: #c8bfb5;
+  --ink-muted: #9a9088;
+  --ink-faint: #6a6058;
+  --paper: #1a1612;
+  --paper-warm: #211c17;
+  --paper-card: #231e19;
+  --amber-pale: rgba(201, 123, 46, 0.15);
+  --amber-glow: rgba(201, 123, 46, 0.1);
+  --border: rgba(232, 224, 213, 0.08);
+  --border-warm: rgba(201, 123, 46, 0.18);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.45);
+}

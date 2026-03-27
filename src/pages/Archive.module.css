@@ -32,6 +32,7 @@
   border-radius: var(--radius-sm);
   background: var(--paper-card);
   font-family: var(--font-sans);
+  font-size: 1rem;
   color: var(--ink);
   outline: none;
 }
@@ -43,7 +44,7 @@
   border-radius: var(--radius-sm);
   background: var(--paper-card);
   font-family: var(--font-sans);
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: var(--ink);
   cursor: pointer;
   outline: none;
@@ -58,6 +59,15 @@
   font-style: italic;
 }
 .emptyTitle { font-size: 1.1rem; margin-bottom: 8px; }
+
+.errorState {
+  text-align: center;
+  color: var(--red-soft);
+  padding: 40px 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+}
 
 .list { display: flex; flex-direction: column; gap: 12px; }
 

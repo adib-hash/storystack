@@ -29,14 +29,14 @@ export default function Archive() {
   const user = useAuth()
   const [entries, setEntries] = useState([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
   const [search, setSearch] = useState('')
   const [domainFilter, setDomainFilter] = useState('all')
 
   useEffect(() => {
-    getEntries(user.uid).then(data => {
-      setEntries(data)
-      setLoading(false)
-    })
+    getEntries(user.uid)
+      .then(data => { setEntries(data); setLoading(false) })
+      .catch(err => { console.error(err); setError('Could not load your archive. Check your connection and try again.'); setLoading(false) })
   }, [user.uid])
 
   const filtered = entries.filter(e => {
@@ -92,7 +92,9 @@ export default function Archive() {
 
         {loading && <p className={styles.empty}>Loading your archive…</p>}
 
-        {!loading && filtered.length === 0 && (
+        {error && <p className={styles.errorState}>{error}</p>}
+
+        {!loading && !error && filtered.length === 0 && (
           <div className={styles.empty}>
             {entries.length === 0
               ? <><p className={styles.emptyTitle}>Your archive is empty.</p><p>Write your first story to begin.</p></>

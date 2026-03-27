@@ -32,6 +32,7 @@ export default function EntryDetail() {
 
   const [entry, setEntry] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [loadError, setLoadError] = useState(null)
   const [editing, setEditing] = useState(false)
   const [editBody, setEditBody] = useState('')
   const [editTags, setEditTags] = useState([])
@@ -39,13 +40,15 @@ export default function EntryDetail() {
   const [confirmDelete, setConfirmDelete] = useState(false)
 
   useEffect(() => {
-    getEntry(user.uid, id).then(data => {
-      if (!data) { navigate('/archive'); return }
-      setEntry(data)
-      setEditBody(data.body)
-      setEditTags(data.tags || [])
-      setLoading(false)
-    })
+    getEntry(user.uid, id)
+      .then(data => {
+        if (!data) { navigate('/archive'); return }
+        setEntry(data)
+        setEditBody(data.body)
+        setEditTags(data.tags || [])
+        setLoading(false)
+      })
+      .catch(err => { console.error(err); setLoadError('Could not load this entry.'); setLoading(false) })
   }, [user.uid, id])
 
   const handleSave = async () => {
@@ -71,6 +74,10 @@ export default function EntryDetail() {
 
   if (loading) return (
     <div className={styles.loader}>Loading…</div>
+  )
+
+  if (loadError) return (
+    <div className={styles.loader} style={{ color: 'var(--red-soft)' }}>{loadError}</div>
   )
 
   const dateStr = entry.createdAt?.toDate

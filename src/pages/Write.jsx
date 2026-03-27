@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../lib/AuthContext'
 import { saveEntry } from '../lib/firebase'
@@ -24,6 +24,8 @@ const FRAMEWORK_TAGS = [
   { id: 'pause', label: 'Pause/Rhythm', description: 'Did you use white space or rhythm deliberately?' },
 ]
 
+const DRAFT_KEY = 'ss-draft'
+
 function getSeededPrompt(prompts, seed) {
   if (!prompts.length) return null
   return prompts[seed % prompts.length]
@@ -46,8 +48,10 @@ export default function Write() {
   const [showTags, setShowTags] = useState(false)
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
+  const [saveError, setSaveError] = useState(null)
   const [wordCount, setWordCount] = useState(0)
   const [domainFilter, setDomainFilter] = useState('all')
+  const [draftRestored, setDraftRestored] = useState(false)
   const textareaRef = useRef(null)
 
   useEffect(() => {
@@ -56,10 +60,36 @@ export default function Write() {
       .then(data => {
         setPrompts(data)
         const seed = getTodaySeed()
+        const todayPrompt = data[seed % data.length]
         setPromptIndex(seed % data.length)
-        setPrompt(data[seed % data.length])
+        setPrompt(todayPrompt)
+
+        // Restore draft if it matches today's prompt
+        try {
+          const raw = localStorage.getItem(DRAFT_KEY)
+          if (raw) {
+            const draft = JSON.parse(raw)
+            if (draft.promptId === todayPrompt.id && draft.text) {
+              setText(draft.text)
+              setDraftRestored(true)
+              setTimeout(() => setDraftRestored(false), 2500)
+            }
+          }
+        } catch {
+          // ignore malformed draft
+        }
       })
   }, [])
+
+  // Auto-save draft on text change
+  useEffect(() => {
+    if (!prompt || !text) return
+    try {
+      localStorage.setItem(DRAFT_KEY, JSON.stringify({ promptId: prompt.id, text }))
+    } catch {
+      // ignore storage errors
+    }
+  }, [text, prompt])
 
   useEffect(() => {
     const words = text.trim().split(/\s+/).filter(Boolean)
@@ -80,6 +110,8 @@ export default function Write() {
     setShowNudge(false)
     setShowTags(false)
     setSaved(false)
+    setSaveError(null)
+    try { localStorage.removeItem(DRAFT_KEY) } catch {}
   }
 
   const toggleTag = (id) => {
@@ -89,6 +121,7 @@ export default function Write() {
   const handleSave = async () => {
     if (!text.trim() || saving) return
     setSaving(true)
+    setSaveError(null)
     try {
       const entry = {
         promptId: prompt.id,
@@ -101,10 +134,12 @@ export default function Write() {
         tags,
       }
       const ref = await saveEntry(user.uid, entry)
+      try { localStorage.removeItem(DRAFT_KEY) } catch {}
       setSaved(true)
       setTimeout(() => navigate(`/entry/${ref.id}`), 600)
     } catch (e) {
       console.error(e)
+      setSaveError('Could not save. Check your connection and try again.')
       setSaving(false)
     }
   }
@@ -168,12 +203,15 @@ export default function Write() {
 
         {/* Editor */}
         <div className={styles.editorWrap}>
+          {draftRestored && (
+            <div className={styles.draftBanner}>Draft restored</div>
+          )}
           <textarea
             ref={textareaRef}
             className={styles.editor}
             placeholder="Begin here. Don't think too long before the first sentence."
             value={text}
-            onChange={e => setText(e.target.value)}
+            onChange={e => { setText(e.target.value); setSaveError(null) }}
             autoFocus
           />
           <div className={styles.editorFooter}>
@@ -220,6 +258,10 @@ export default function Write() {
             ) : saving ? 'Saving…' : 'Save to Archive'}
           </button>
         </div>
+
+        {saveError && (
+          <p className={styles.saveError}>{saveError}</p>
+        )}
 
       </div>
     </main>
