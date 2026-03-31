@@ -89,14 +89,14 @@
   margin-bottom: 8px;
 }
 .cardDomain {
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--amber);
 }
 .cardDate {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: var(--ink-faint);
 }
 
@@ -110,7 +110,7 @@
 }
 
 .cardExcerpt {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: var(--ink-muted);
   line-height: 1.55;
   margin-bottom: 14px;
@@ -126,11 +126,11 @@
   padding: 2px 8px;
   border: 1px solid rgba(46,125,82,0.25);
   border-radius: 99px;
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   color: var(--green-soft);
   background: rgba(46,125,82,0.06);
 }
-.cardWc { font-size: 0.75rem; color: var(--ink-faint); }
+.cardWc { font-size: 0.875rem; color: var(--ink-faint); }
 .chevron { color: var(--ink-faint); }
 
 @media (max-width: 600px) {

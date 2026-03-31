@@ -103,7 +103,7 @@ html.dark .nav {
 .modalAccent { color: var(--amber); }
 
 .modalTagline {
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   color: var(--ink-muted);
   margin-top: -8px;
 }
@@ -136,12 +136,12 @@ html.dark .nav {
 }
 
 .modalLabel {
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   color: var(--ink-muted);
 }
 
 .modalValue {
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   font-family: var(--font-serif);
   color: var(--ink);
 }
@@ -182,7 +182,7 @@ html.dark .nav {
   border-radius: var(--radius-sm);
   background: transparent;
   font-family: var(--font-sans);
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   color: var(--ink-muted);
   cursor: pointer;
   text-align: center;

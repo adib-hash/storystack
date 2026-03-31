@@ -43,7 +43,7 @@ export default function Login() {
 function Feature({ icon, text }) {
   return (
     <div style={{ display: 'flex', gap: '10px', alignItems: 'flex-start' }}>
-      <span style={{ color: 'var(--amber)', fontSize: '0.7rem', marginTop: '4px' }}>{icon}</span>
+      <span style={{ color: 'var(--amber)', fontSize: '0.875rem', marginTop: '2px' }}>{icon}</span>
       <span style={{ fontSize: '0.875rem', color: 'var(--ink-soft)' }}>{text}</span>
     </div>
   )

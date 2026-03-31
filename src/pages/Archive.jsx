@@ -142,7 +142,7 @@ function Stat({ label, value, accent }) {
       <span style={{ fontSize: '1.5rem', fontFamily: 'var(--font-serif)', fontWeight: 600, color: accent ? 'var(--amber)' : 'var(--ink)' }}>
         {value}
       </span>
-      <span style={{ fontSize: '0.75rem', color: 'var(--ink-muted)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
+      <span style={{ fontSize: '0.875rem', color: 'var(--ink-muted)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
         {label}
       </span>
     </div>
