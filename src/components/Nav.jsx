@@ -5,7 +5,7 @@ import { useAuth } from '../lib/AuthContext'
 import { PenLine, BookOpen } from 'lucide-react'
 import styles from './Nav.module.css'
 
-const APP_VERSION = 'v0.2.0'
+const APP_VERSION = 'v0.2.1'
 
 function getTheme() {
   return localStorage.getItem('ss-theme') || 'light'

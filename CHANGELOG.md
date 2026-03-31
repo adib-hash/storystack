@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1 — 2026-03-30
+
+### Fixed
+- Bumped 23 sub-14px font sizes to 0.875rem (14px) minimum across all pages — labels, tags, captions, metadata, and buttons now meet accessibility text size standards
+
 ## 0.2.0 — 2026-03-26
 
 ### Fixed
