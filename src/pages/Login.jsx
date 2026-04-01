@@ -35,6 +35,7 @@ export default function Login() {
         </button>
 
         <p className={styles.note}>Personal use only. Your stories stay private.</p>
+        <p className={styles.note} style={{ marginTop: '4px', opacity: 0.5 }}>Sign-in is secured by Firebase, our authentication provider.</p>
       </div>
     </div>
   )
